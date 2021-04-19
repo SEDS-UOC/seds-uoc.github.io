@@ -203,6 +203,7 @@
      opacity: 0;
      animation: fadedown .4s forwards;
      animation-delay: .9s;
+     font-weight: 600;
  }
 
  .reg-btn:hover,.reg-btn:focus
@@ -464,7 +465,19 @@ footer li:hover{
         display: inline-block;
         height: 9rem;
         vertical-align: middle;
-        width: 9rem;
+        width: auto;
+    }
+
+    .header1-topic{
+        font-size: 1rem;
+    }
+
+    .reg-btn{
+        font-size: 1rem;
+        background-color: rgb(3, 72, 161);
+        padding: .6rem .8rem;
+        color:cornsilk;
+        border-radius: .5rem;
     }
 
     .banner2 .container2 >div{
