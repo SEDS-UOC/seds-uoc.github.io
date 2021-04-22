@@ -32,7 +32,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-
 ol, ul {
 	list-style: none;
 }
@@ -2583,7 +2582,7 @@ input, select, textarea {
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			padding-left: 1.5em;
 		}
 
 		ul.alt {
@@ -3374,13 +3373,13 @@ input, select, textarea {
 	}
 
 	#header {
-		background: rgba(39, 40, 51, 0.965);
-		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+		background: rgba(39, 40, 51, 0.965) !important;
+		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25) !important;
 		cursor: default;
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
-		position: fixed;
+		position: fixed !important;
 		top: 0;
 		width: 100%;
 		z-index: 100;
@@ -3430,11 +3429,14 @@ input, select, textarea {
 						}
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
-						color: #e44c65;
+						color: orange;
 					}
 
 					#header nav ul li > ul {
 						display: none;
+					}
+					#header nav ul li a:hover{
+						color: orange !important;
 					}
 
 	body.landing #page-wrapper {
@@ -3451,12 +3453,11 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: fixed;
-		background-color: #272833;
-		background-image: url("../../images/banner.jpg");
+		background-color: rgba(27,28,33,0.01);
+		background-image: url("../images/background.jpg");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
-		min-height: 100vh;
 		position: relative;
 		text-align: center;
 		z-index: 21;
@@ -3556,9 +3557,10 @@ input, select, textarea {
 
 			#footer .icons .icon.alt:before {
 				color: #272833 !important;
-				text-shadow: 1px 0 0 rgba(255, 255, 255, 0.5), -1px 0 0 rgba(255, 255, 255, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5), 0 -1px 0 rgba(255, 255, 255, 0.5);
 			}
-
+		#footer ul li a:hover{
+			color: orange !important;
+		}
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
