@@ -1,309 +1,473 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>SEDS UoC Home</title>
-    <link rel="shortcut icon" type="image/png" href="public/img/4.PNG"><!--favicon-->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
-	</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="public/css/style.css" />
+    <title>SEDS UOC</title>
+  </head>
 
-  <style>
-    .item{
-      height:auto;
-    }
-    .center{
-      align-items: center;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-    }
-    .card-width{
-      max-width: 25rem;
-    }
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://sedsuoc.lk">
+          <img id="navbar-logo" src="public/img/seds-logo.png" />
+        </a>
 
-    @media(min-width:768px){
-      .item{
-        height: 100vh;
-        width: 100%;
-      }
-    }
-  </style>
-
-	<body>
-		<!-- Start Hero Carousel -->
-		<section class="hero is-medium has-carousel">
-			<div id="carousel-demo" class="hero-carousel">
-				<div class="image is-fullwidth item item-1">
-					<img src="public/images/4.jpg" alt="background">
-				</div>
-				<div class="image is-fullwidth item item-2">
-					<img src="public/images/5.jpg" alt="background">
-				</div>
-				<div class="image is-fullwidth item item-3">
-					<img src="public/images/7.jpg" alt="background">
-				</div>
-        <div class="image is-fullwidth item item-4">
-					<img src="public/images/background.jpg" alt="background">
-				</div>
-			</div>
-
-      <!--navbar-->
-
-			<div class="hero-head">
-
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-        
-        
-          <div id="navbarBasicExample" class="navbar-menu has-text-white is-size-4">
-            <div class="navbar-start">
-              <a href="index.html"class="navbar-item">
-                Home
-              </a>
-        
-              <a href="http://seds-uoc-learn.rf.gd/" class="navbar-item">
-                Blog
-              </a>
-
-              <a href="#aboutus" class="navbar-item">
-                About Us
-              </a>
-        
-            </div>
-        
-            <div class="navbar-end">
-              <div class="navbar-item">
-                <div class="buttons">
-                  <a href="registration.html" class="button is-primary">
-                    <strong>Register</strong>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </nav>
-      </div>
-      <!--end of navbar-->
-
-			<div class="hero-body">
-        <section class="section center">
-          <div class="container">
-            <h1 class="title has-text-white is-size-2">
-              SEDS UoC
-            </h1>
-            <p class="subtitle has-text-white is-size-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit!
-            </p>
-          </div>
-        </section>
-      </div>
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
       </div>
 
-		</section>
-		<!-- End Hero Carousel -->
-
-    <!--events section-->
-       <section class="section">
-      				<!-- Start Carousel -->
-				<div id="carouse2-demo" class="carousel">
-					<div class="item-1 ">
-						<div class="card ">
-
-              <div class="card-image">
-                <figure class="image  is-4by3">
-                  <img src="public/images/1.jpeg" alt="Placeholder image">
-                </figure>
-              </div>
-        
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                    <figure class="image is-48x48">
-                      <img src="public/images/4.PNG" alt="Placeholder image">
-                    </figure>
-                  </div>
-                  <div class="media-content black">
-                    <p class="title is-4">John Smith</p>
-                    <p class="subtitle is-6">@johnsmith</p>
-                  </div>
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                  <a href="#">#css</a> <a href="#">#responsive</a>
-                  <br>
-                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                </div>
-              </div>
-            </div>
-					</div>
-
-					<div class="item-2">
-            <div class="card ">
-
-              <div class="card-image">
-                <figure class="image  is-4by3">
-                  <img src="public/images/2.jpeg" alt="Placeholder image">
-                </figure>
-              </div>
-        
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                    <figure class="image is-48x48">
-                      <img src="public/images/4.PNG" alt="Placeholder image">
-                    </figure>
-                  </div>
-                  <div class="media-content black">
-                    <p class="title is-4">John Smith</p>
-                    <p class="subtitle is-6">@johnsmith</p>
-                  </div>
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                  <a href="#">#css</a> <a href="#">#responsive</a>
-                  <br>
-                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                </div>
-              </div>
-            </div>
-					</div>
-
-					<div class="item-3">
-            <div class="card ">
-
-              <div class="card-image">
-                <figure class="image  is-4by3">
-                  <img src="public/images/1.jpeg" alt="Placeholder image">
-                </figure>
-              </div>
-        
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                    <figure class="image is-48x48">
-                      <img src="public/images/4.PNG" alt="Placeholder image">
-                    </figure>
-                  </div>
-                  <div class="media-content black">
-                    <p class="title is-4">John Smith</p>
-                    <p class="subtitle is-6">@johnsmith</p>
-                  </div>
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                  <a href="#">#css</a> <a href="#">#responsive</a>
-                  <br>
-                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                </div>
-              </div>
-            </div>
-					</div>
-
-          <div class="item-4">
-            <div class="card ">
-
-              <div class="card-image">
-                <figure class="image  is-4by3">
-                  <img src="public/images/2.jpeg" alt="Placeholder image">
-                </figure>
-              </div>
-        
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                    <figure class="image is-48x48">
-                      <img src="public/images/4.PNG" alt="Placeholder image">
-                    </figure>
-                  </div>
-                  <div class="media-content black">
-                    <p class="title is-4">John Smith</p>
-                    <p class="subtitle is-6">@johnsmith</p>
-                  </div>
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                  <a href="#">#css</a> <a href="#">#responsive</a>
-                  <br>
-                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                </div>
-              </div>
-            </div>
-					</div>
-				</div>
-				<!-- End Carousel -->
-    </section>
-
-    <section class="section is-primary">
-      <div class="containers">
-       <div class="notification">
-        <div class="columns">
-          <div class="column is-size-3">
-            <h2>topic</h2>
-          </div>
-          <div class="column">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum optio eos ad, architecto aperiam dignissimos culpa beatae ducimus doloribus voluptatum?
-            </p>
-          </div>
-          <div class="column">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, consequatur?</p>
-          </div>
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href=""> Home </a>
+          <a class="navbar-item" href="https://blog.sedsuoc.lk"> Blog </a>
+          <a class="navbar-item" href="#events-news"> News </a>
+          <a class="navbar-item" href="#about-seds-uoc"> About Us </a>
+          <a class="navbar-item" href="#contact"> Contact </a>
         </div>
-       </div>
-      </div>
-    </section>
 
-    <section class="hero is-primary">
-      <div class="containers">
-        <div class="columns">
-          <div class="column is-size-3">
-            <img src="public/images/4.PNG" alt="">
-            <h2 class="title is-white">Contact <strong>Us</strong></h2>
-          </div>
-          <div class="column">
-            <h2 class="title">How can we help you?</h2>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a
+                class="button is-primary nav-signup is-rounded hvr-icon-forward"
+                href="register"
+              >
+                <span>Join Now</span>
+                <span class="icon is-small">
+                  <i class="fa fa-long-arrow-alt-right hvr-icon"></i>
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
+    </nav>
+
+    <div class="welcome-container">
+      <div class="columns">
+        <div class="column is-5 title-column">
+          <h1 class="title is-1 mb-0">
+            Students for the Exploration and Development of Space.
+          </h1>
+          <h4 class="title is-4 mt-0">University of Colombo</h4>
+          <a class="button is-primary nav-signup is-rounded hvr-icon-forward">
+            <span>See More</span>
+            <span class="icon is-small hvr-icon">
+              <i class="fa fa-angle-right"></i>
+            </span>
+          </a>
+          <div class="row mt-1">
+            <span class="icon is-small mr-1">
+              <i class="fab fa-twitter"></i>
+            </span>
+            <span class="icon is-small mr-1">
+              <i class="fab fa-facebook"></i>
+            </span>
+            <span class="icon is-small mr-1">
+              <i class="fab fa-instagram"></i>
+            </span>
+            <span class="icon is-small mr-1">
+              <i class="fab fa-youtube"></i>
+            </span>
+          </div>
+        </div>
+        <div class="column is-4"></div>
+        <div class="column is-3 stat-column">
+          <div class="row mb-2">
+            <div class="columns">
+              <div class="column is-one-quarter">
+                <img
+                  class="welcome-icon"
+                  src="https://www.flaticon.com/svg/vstatic/svg/4631/4631325.svg?token=exp=1620022011~hmac=a31fc5136a70438652b5330bb91ef40d"
+                  alt=""
+                />
+              </div>
+              <div class="column is-two-thirds">
+                <div class="title is-3 mb-0">40</div>
+                <div class="title is-6 mt-0">Projects Created</div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="columns">
+              <div class="column is-one-quarter">
+                <img
+                  class="welcome-icon"
+                  src="https://www.flaticon.com/svg/vstatic/svg/4631/4631197.svg?token=exp=1620022316~hmac=3af5219f0df71e387f8daf6b8492218d"
+                  alt=""
+                />
+              </div>
+              <div class="column is-two-thirds">
+                <div class="title is-3 mb-0">40</div>
+                <div class="title is-6 mt-0">Projects Created</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="columns">
+              <div class="column is-one-quarter">
+                <img
+                  class="welcome-icon"
+                  src="https://www.flaticon.com/svg/vstatic/svg/4631/4631319.svg?token=exp=1620022316~hmac=55f6b6b2264733d5c262d416a36c536c"
+                  alt=""
+                />
+              </div>
+              <div class="column is-two-thirds">
+                <div class="title is-3 mb-0">40</div>
+                <div class="title is-6 mt-0">Projects Created</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--news section-->
+    <div class="news-section">
+      <h3 class="title is-3 news-title">News & Events</h3>
+      <div class="row">
+        <div id="news-items" class="columns">Loading...</div>
+      </div>
+      <div class="row">
+        <center><i class="fa fa-ellipsis-h scroll-icon"></i></center>
+      </div>
+    </div>
+
+    <!-- Start about section -->
+    <section id="about-seds-uoc" class="section">
+      <div class="container">
+        <h1 class="title">About SEDS UOC</h1>
+        <p class="subtitle">A dedicated society, shooting for the stars</p>
+      </div>
     </section>
 
-	</body>
+    <!-- Start executive board section -->
+    <section id="executive-board" class="section has-background-primary">
+      <div class="container">
+        <h1 class="title">Executive Board 2020/21</h1>
+        <p class="subtitle">
+          We are working hard to bring you all the spacey things in our events
+        </p>
+        <div class="columns is-multiline">
 
-  <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
-  <script>
-    bulmaCarousel.attach('#carousel-demo', {
-      slidesToScroll: 1,
-      slidesToShow: 1,
-      breakpoints:[
-        { changePoint: 500, slidesToShow: 1, slidesToScroll: 1 }, 
-      { changePoint: 640, slidesToShow: 1, slidesToScroll: 1 }, 
-      { changePoint: 768, slidesToShow: 1, slidesToScroll: 1 } ],
-      navigationSwipe:true,
-      infinite:true,
-      autoplay:true
-    });
+          <div class="column is-one-quarter is-primary">
+            <div class="card card-width">
 
-  /*for cards*/
-    bulmaCarousel.attach('#carouse2-demo', {
-      slidesToScroll: 1,
-      slidesToShow: 3,
-      breakpoints:[
-        { changePoint: 500, slidesToShow: 1, slidesToScroll: 1 }, 
-      { changePoint: 640, slidesToShow: 1, slidesToScroll: 1 }, 
-      { changePoint: 768, slidesToShow: 1, slidesToScroll: 1 } ],
-      navigationSwipe:true,
-      infinite:true
-    });
-  </script>
-  <script src="public/js/index.js"></script>
+              <div class="card-image">
+                <figure class="image  is-4by3">
+                  <img src="public/images/pic08.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+        
+              <div class="card-content">
+                <div class="media">
+
+                  <div class="media-content black">
+                    <p class="title is-4">Name</p>
+                    <p class="subtitle is-6">Position</p>
+                  </div>
+                </div>
+            
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. <a>email</a>.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-quarter is-primary">
+            <div class="card card-width">
+
+              <div class="card-image">
+                <figure class="image  is-4by3">
+                  <img src="public/images/pic08.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+        
+              <div class="card-content">
+                <div class="media">
+
+                  <div class="media-content black">
+                    <p class="title is-4">Name</p>
+                    <p class="subtitle is-6">Position</p>
+                  </div>
+                </div>
+            
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. <a>email</a>.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-quarter is-primary">
+            <div class="card card-width">
+
+              <div class="card-image">
+                <figure class="image  is-4by3">
+                  <img src="public/images/pic08.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+        
+              <div class="card-content">
+                <div class="media">
+
+                  <div class="media-content black">
+                    <p class="title is-4">Name</p>
+                    <p class="subtitle is-6">Position</p>
+                  </div>
+                </div>
+            
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. <a>email</a>.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-quarter is-primary">
+            <div class="card card-width">
+
+              <div class="card-image">
+                <figure class="image  is-4by3">
+                  <img src="public/images/pic08.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+        
+              <div class="card-content">
+                <div class="media">
+
+                  <div class="media-content black">
+                    <p class="title is-4">Name</p>
+                    <p class="subtitle is-6">Position</p>
+                  </div>
+                </div>
+            
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. <a>email</a>.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-quarter is-primary">
+            <div class="card card-width">
+
+              <div class="card-image">
+                <figure class="image  is-4by3">
+                  <img src="public/images/pic08.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+        
+              <div class="card-content">
+                <div class="media">
+
+                  <div class="media-content black">
+                    <p class="title is-4">Name</p>
+                    <p class="subtitle is-6">Position</p>
+                  </div>
+                </div>
+            
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. <a>email</a>.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-quarter is-primary">
+            <div class="card card-width">
+
+              <div class="card-image">
+                <figure class="image  is-4by3">
+                  <img src="public/images/pic08.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+        
+              <div class="card-content">
+                <div class="media">
+
+                  <div class="media-content black">
+                    <p class="title is-4">Name</p>
+                    <p class="subtitle is-6">Position</p>
+                  </div>
+                </div>
+            
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. <a>email</a>.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-quarter is-primary">
+            <div class="card card-width">
+
+              <div class="card-image">
+                <figure class="image  is-4by3">
+                  <img src="public/images/pic08.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+        
+              <div class="card-content">
+                <div class="media">
+
+                  <div class="media-content black">
+                    <p class="title is-4">Name</p>
+                    <p class="subtitle is-6">Position</p>
+                  </div>
+                </div>
+            
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. <a>email</a>.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-quarter is-primary">
+            <div class="card card-width">
+
+              <div class="card-image">
+                <figure class="image  is-4by3">
+                  <img src="public/images/pic08.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+        
+              <div class="card-content">
+                <div class="media">
+
+                  <div class="media-content black">
+                    <p class="title is-4">Name</p>
+                    <p class="subtitle is-6">Position</p>
+                  </div>
+                </div>
+            
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. <a>email</a>.
+                </div>
+              </div>
+            </div>
+          </div>
+<!--end of the cards-->
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="register"
+      class="section"
+      style="background-color: cornflowerblue"
+    >
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <p class="subtitle">
+              Excited already? then go register. join with us in our
+              quest to find all the aliens in the galaxy
+            </p>
+          </div>
+          <div class="column is-one-quarter has-text-centered">
+            <button class="button is-warning">
+              <strong>REGISTER NOW</strong>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h1 class="title">Contact</h1>
+
+        <div class="field">
+          <div class="columns">
+            <div class="column">some stuff here</div>
+            <div class="column">
+              <div class="field">
+                <label class="label">Name</label>
+                <div class="control">
+                  <input
+                    class="input"
+                    type="text"
+                    placeholder="e.g Alex Smith"
+                  />
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Email</label>
+                <div class="control">
+                  <input
+                    class="input"
+                    type="email"
+                    placeholder="e.g. alexsmith@gmail.com"
+                  />
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Message</label>
+                <div class="control">
+                  <textarea
+                    class="textarea"
+                    placeholder="Explain how we can help you"
+                  ></textarea>
+                </div>
+              </div>
+
+              <div class="field">
+                <div class="field-label">
+                  <!-- Left empty for spacing -->
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <div class="control">
+                      <button class="button is-primary">Send message</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Site</strong> by
+          <a href="https://sedsuoc.lk">SEDS UOC DEV TEAM</a>. The source code is
+          licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
+          website content is licensed
+          <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+            >CC BY NC SA 4.0</a
+          >.
+        </p>
+      </div>
+    </footer>
+
+    <script src="public/js/landing.js"></script>
+  </body>
 </html>
