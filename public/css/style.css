@@ -1,0 +1,106 @@
+@import url('https://unpkg.com/bulma@0.8.0/css/bulma.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+@import url('./helpers.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css');
+
+@font-face {
+    font-family: GalanoGrotesqueBold;
+    src: url('../font/font.woff');
+  }
+
+/* Colors */
+.color-yellow{
+    color: #f9cc56 !important
+}
+.pink-gradient{
+    background-image: linear-gradient(to right, #fbeef7 , #fae2f5) !important;
+}
+.blue-gradient{
+    background-image: linear-gradient(to right, #e8f9fe, #f0eefb) !important;
+}
+.brown-gradient{
+    background-image: linear-gradient(to right, #fcf9f0 , #f1e6d5) !important;
+}
+
+body{
+    font-family: 'GalanoGrotesqueBold', sans-serif !important;
+}
+
+/* Navbar */
+.nav-signup{
+    color: black !important;
+    background-color:#f9cc56 !important ;
+}
+
+/* Welcome section */
+.welcome-container{
+  background-image: url("../img/bg3.jpg"); 
+  background-color: white; 
+  height: 48em;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  padding-left: 2rem; 
+  padding-right: 2rem;
+}
+.welcome-container > .columns > .column{
+    height: 48em !important;
+    align-self: center !important;
+}
+.title-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.welcome-title{
+    font-size: 9rem !important;
+}
+.welcome-icon{
+    height: 4rem;
+}
+
+.stat-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* News Section */
+.news-section{
+    background-color: #1d0831 !important;
+    padding: 2rem;
+}
+.news-title{
+    color: #fff !important
+}
+.news-card{
+    border-radius: 10px;
+    margin: 10px;
+}
+.news-image{
+    height: 100px;
+}
+.newscard-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-text{
+    align-items: start;
+}
+.card-text > p{
+    font-size: 0.8rem !important;
+}
+.scroll-icon{
+    color: white !important;
+    font-size: 1.5rem;
+}
+
+/* Change navbar logo size  */
+
+#navbar-logo {
+    max-height: 3.5rem !important;
+}
