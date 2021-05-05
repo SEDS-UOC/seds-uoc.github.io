@@ -1,0 +1,21 @@
+/* style for social media icons */
+.social-icon-set a{
+    text-decoration: none;
+    color: rgb(88, 84, 84);
+    }
+    .social:hover{
+    color:orange;
+    transform: scale(2.2,2.2);
+    }
+/*sponsor logo*/
+    .sponsor{
+        max-height: 3rem;
+        margin-top: 1rem;
+        border-radius: 5px;
+    }
+
+    @media(min-width:768px){
+        .sponsor{
+            min-width: 3rem;
+        }
+      }
