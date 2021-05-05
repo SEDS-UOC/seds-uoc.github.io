@@ -61,6 +61,7 @@
                 </span>
               </a>
             </div>
+
           </div>
         </div>
       </div>
@@ -69,10 +70,10 @@
     <div class="welcome-container">
       <div class="columns">
         <div class="column is-5 title-column">
-          <h1 class="title is-1 mb-0">
+          <h1 class="title is-1 mb-0" id="maintopic">
             Students for the Exploration and Development of Space.
           </h1>
-          <h4 class="title is-4 mt-0">University of Colombo</h4>
+          <h4 class="title is-4 mt-0" id="subtopic">University of Colombo</h4>
           <a class="button is-primary nav-signup is-rounded hvr-icon-forward">
             <span>See More</span>
             <span class="icon is-small hvr-icon">
@@ -124,7 +125,9 @@
           </div> -->
         </div>
         <div class="column is-4"></div>
-        <div class="column is-3 stat-column">
+
+        <!--beginning of the side container-->
+        <div class="column is-3 stat-column" id="sidecontainer">
           <div class="row mb-2">
             <div class="columns">
               <div class="column is-one-quarter">
@@ -136,7 +139,7 @@
               </div>
               <div class="column is-two-thirds">
                 <div class="title is-3 mb-0">40</div>
-                <div class="title is-6 mt-0">Projects Created</div>
+                <div class="is-6 mt-0">Countries</div>
               </div>
             </div>
           </div>
@@ -151,7 +154,7 @@
               </div>
               <div class="column is-two-thirds">
                 <div class="title is-3 mb-0">40</div>
-                <div class="title is-6 mt-0">Projects Created</div>
+                <div class="is-6 mt-0">Chapters</div>
               </div>
             </div>
           </div>
@@ -166,11 +169,15 @@
               </div>
               <div class="column is-two-thirds">
                 <div class="title is-3 mb-0">40</div>
-                <div class="title is-6 mt-0">Projects Created</div>
+                <div class="is-6 mt-0">Members</div>
               </div>
             </div>
           </div>
+          <div class="row">
+            <div id="value">1</div>
+          </div>
         </div>
+        <!--end of side container-->
       </div>
     </div>
 
@@ -226,7 +233,8 @@
         </p>
         <div class="columns is-multiline">
 
-          <div class="column is-one-quarter is-primary">
+          <div class="column is-one-quarter is-primary center">
+            <!--beginning of the cards-->
             <div class="card card-width">
 
               <div class="card-image">
@@ -241,18 +249,52 @@
                   <div class="media-content black">
                     <p class="title is-4">Name</p>
                     <p class="subtitle is-6">Position</p>
+
+                    <!--icons-->
+                    <div class="iconset">
+                      <!--socail icons of the card-->
+                      <div class="row mt-1 social-icon-set">
+                        <a href="#">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-twitter"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.facebook.com/sedsuoc/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-facebook"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.instagram.com/sedsuoc/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-instagram"></i>
+                          </span>
+                        </a>
+                        <a href="#">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fas solid alt fa-envelope"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.linkedin.com/company/seds-uoc/about/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-linkedin"></i>
+                          </span>
+                        </a>
+                      </div>
+                      <!--end of the icons-->
+                    </div>
+                    <!--end of icons-->
                   </div>
                 </div>
-            
+
                 <div class="content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>email</a>.
+                  Phasellus nec iaculis mauris.
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="column is-one-quarter is-primary">
+          <div class="column is-one-quarter is-primary center">
             <div class="card card-width">
 
               <div class="card-image">
@@ -267,17 +309,50 @@
                   <div class="media-content black">
                     <p class="title is-4">Name</p>
                     <p class="subtitle is-6">Position</p>
+                                        <!--icons-->
+                    <div class="iconset">
+                      <!--socail icons of the card-->
+                      <div class="row mt-1 social-icon-set">
+                        <a href="#">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-twitter"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.facebook.com/sedsuoc/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-facebook"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.instagram.com/sedsuoc/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-instagram"></i>
+                          </span>
+                        </a>
+                        <a href="#">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fas solid alt fa-envelope"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.linkedin.com/company/seds-uoc/about/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-linkedin"></i>
+                          </span>
+                        </a>
+                      </div>
+                      <!--end of the icons-->
+                    </div>
+                    <!--end of icons-->
                   </div>
                 </div>
             
                 <div class="content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>email</a>.
+                  Phasellus nec iaculis mauris.
                 </div>
               </div>
             </div>
           </div>
-          <div class="column is-one-quarter is-primary">
+          <div class="column is-one-quarter is-primary center">
             <div class="card card-width">
 
               <div class="card-image">
@@ -292,96 +367,51 @@
                   <div class="media-content black">
                     <p class="title is-4">Name</p>
                     <p class="subtitle is-6">Position</p>
+                                       <!--icons-->
+                    <div class="iconset">
+                      <!--socail icons of the card-->
+                      <div class="row mt-1 social-icon-set">
+                        <a href="#">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-twitter"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.facebook.com/sedsuoc/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-facebook"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.instagram.com/sedsuoc/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-instagram"></i>
+                          </span>
+                        </a>
+                        <a href="#">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fas solid alt fa-envelope"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.linkedin.com/company/seds-uoc/about/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-linkedin"></i>
+                          </span>
+                        </a>
+                      </div>
+                      <!--end of the icons-->
+                    </div>
+                    <!--end of icons-->
                   </div>
                 </div>
             
                 <div class="content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>email</a>.
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="column is-one-quarter is-primary">
-            <div class="card card-width">
-
-              <div class="card-image">
-                <figure class="image  is-4by3">
-                  <img src="public/images/pic08.jpg" alt="Placeholder image">
-                </figure>
-              </div>
-        
-              <div class="card-content">
-                <div class="media">
-
-                  <div class="media-content black">
-                    <p class="title is-4">Name</p>
-                    <p class="subtitle is-6">Position</p>
-                  </div>
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>email</a>.
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="column is-one-quarter is-primary">
-            <div class="card card-width">
-
-              <div class="card-image">
-                <figure class="image  is-4by3">
-                  <img src="public/images/pic08.jpg" alt="Placeholder image">
-                </figure>
-              </div>
-        
-              <div class="card-content">
-                <div class="media">
-
-                  <div class="media-content black">
-                    <p class="title is-4">Name</p>
-                    <p class="subtitle is-6">Position</p>
-                  </div>
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>email</a>.
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="column is-one-quarter is-primary">
-            <div class="card card-width">
-
-              <div class="card-image">
-                <figure class="image  is-4by3">
-                  <img src="public/images/pic08.jpg" alt="Placeholder image">
-                </figure>
-              </div>
-        
-              <div class="card-content">
-                <div class="media">
-
-                  <div class="media-content black">
-                    <p class="title is-4">Name</p>
-                    <p class="subtitle is-6">Position</p>
-                  </div>
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>email</a>.
+                  Phasellus nec iaculis mauris.
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="column is-one-quarter is-primary">
+          <div class="column is-one-quarter is-primary center">
             <div class="card card-width">
 
               <div class="card-image">
@@ -396,18 +426,51 @@
                   <div class="media-content black">
                     <p class="title is-4">Name</p>
                     <p class="subtitle is-6">Position</p>
+                                       <!--icons-->
+                    <div class="iconset">
+                      <!--socail icons of the card-->
+                      <div class="row mt-1 social-icon-set">
+                        <a href="#">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-twitter"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.facebook.com/sedsuoc/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-facebook"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.instagram.com/sedsuoc/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-instagram"></i>
+                          </span>
+                        </a>
+                        <a href="#">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fas solid alt fa-envelope"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.linkedin.com/company/seds-uoc/about/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-linkedin"></i>
+                          </span>
+                        </a>
+                      </div>
+                      <!--end of the icons-->
+                    </div>
+                    <!--end of icons-->
                   </div>
                 </div>
             
                 <div class="content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>email</a>.
+                  Phasellus nec iaculis mauris.
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="column is-one-quarter is-primary">
+          <div class="column is-one-quarter is-primary center">
             <div class="card card-width">
 
               <div class="card-image">
@@ -422,12 +485,222 @@
                   <div class="media-content black">
                     <p class="title is-4">Name</p>
                     <p class="subtitle is-6">Position</p>
+                                       <!--icons-->
+                    <div class="iconset">
+                      <!--socail icons of the card-->
+                      <div class="row mt-1 social-icon-set">
+                        <a href="#">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-twitter"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.facebook.com/sedsuoc/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-facebook"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.instagram.com/sedsuoc/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-instagram"></i>
+                          </span>
+                        </a>
+                        <a href="#">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fas solid alt fa-envelope"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.linkedin.com/company/seds-uoc/about/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-linkedin"></i>
+                          </span>
+                        </a>
+                      </div>
+                      <!--end of the icons-->
+                    </div>
+                    <!--end of icons-->
                   </div>
                 </div>
             
                 <div class="content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>email</a>.
+                  Phasellus nec iaculis mauris.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-quarter is-primary center">
+            <div class="card card-width">
+
+              <div class="card-image">
+                <figure class="image  is-4by3">
+                  <img src="public/images/pic08.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+        
+              <div class="card-content">
+                <div class="media">
+
+                  <div class="media-content black">
+                    <p class="title is-4">Name</p>
+                    <p class="subtitle is-6">Position</p>
+                                       <!--icons-->
+                    <div class="iconset">
+                      <!--socail icons of the card-->
+                      <div class="row mt-1 social-icon-set">
+                        <a href="#">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-twitter"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.facebook.com/sedsuoc/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-facebook"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.instagram.com/sedsuoc/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-instagram"></i>
+                          </span>
+                        </a>
+                        <a href="#">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fas solid alt fa-envelope"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.linkedin.com/company/seds-uoc/about/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-linkedin"></i>
+                          </span>
+                        </a>
+                      </div>
+                      <!--end of the icons-->
+                    </div>
+                    <!--end of icons-->
+                  </div>
+                </div>
+            
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-quarter is-primary center">
+            <div class="card card-width">
+
+              <div class="card-image">
+                <figure class="image  is-4by3">
+                  <img src="public/images/pic08.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+        
+              <div class="card-content">
+                <div class="media">
+
+                  <div class="media-content black">
+                    <p class="title is-4">Name</p>
+                    <p class="subtitle is-6">Position</p>
+                                       <!--icons-->
+                    <div class="iconset">
+                      <!--socail icons of the card-->
+                      <div class="row mt-1 social-icon-set">
+                        <a href="#">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-twitter"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.facebook.com/sedsuoc/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-facebook"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.instagram.com/sedsuoc/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-instagram"></i>
+                          </span>
+                        </a>
+                        <a href="#">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fas solid alt fa-envelope"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.linkedin.com/company/seds-uoc/about/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-linkedin"></i>
+                          </span>
+                        </a>
+                      </div>
+                      <!--end of the icons-->
+                    </div>
+                    <!--end of icons-->
+                  </div>
+                </div>
+            
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-quarter is-primary center">
+            <div class="card card-width">
+
+              <div class="card-image">
+                <figure class="image  is-4by3">
+                  <img src="public/images/pic08.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+        
+              <div class="card-content">
+                <div class="media">
+
+                  <div class="media-content black">
+                    <p class="title is-4">Name</p>
+                    <p class="subtitle is-6">Position</p>
+                                       <!--icons-->
+                    <div class="iconset">
+                      <!--socail icons of the card-->
+                      <div class="row mt-1 social-icon-set">
+                        <a href="#">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-twitter"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.facebook.com/sedsuoc/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-facebook"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.instagram.com/sedsuoc/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-instagram"></i>
+                          </span>
+                        </a>
+                        <a href="#">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fas solid alt fa-envelope"></i>
+                          </span>
+                        </a>
+                        <a href="https://www.linkedin.com/company/seds-uoc/about/">
+                          <span class="icon is-small mr-1 social">
+                            <i class="fab fa-linkedin"></i>
+                          </span>
+                        </a>
+                      </div>
+                      <!--end of the icons-->
+                    </div>
+                    <!--end of icons-->
+                  </div>
+                </div>
+            
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
                 </div>
               </div>
             </div>

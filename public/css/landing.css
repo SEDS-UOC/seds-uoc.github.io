@@ -11,11 +11,44 @@
     .sponsor{
         max-height: 3rem;
         margin-top: 1rem;
+        margin-left: 1rem;
         border-radius: 5px;
     }
 
-    @media(min-width:768px){
+    /*for count*/
+    #value {
+        font-size: 2.5rem;
+    }
+
+    /*for executive cards*/
+    .card-width{
+        width: 12rem;
+    }
+
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ecards{
+        height: 8rem;
+        margin-bottom: 1rem;
+    }
+
+    @media only screen and(min-width:768px){
         .sponsor{
             min-width: 3rem;
+        }
+
+        #sidecontainer{
+            display: none;
+        }
+
+        .maintopic{
+            font-size: 2rem;
+        }
+        .subtopic{
+            font-size: 1rem;
         }
       }
