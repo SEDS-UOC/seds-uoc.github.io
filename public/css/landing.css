@@ -3,10 +3,20 @@
     text-decoration: none;
     color: rgb(88, 84, 84);
     }
-    .social:hover{
+.social:hover{
     color:orange;
     transform: scale(2.2,2.2);
     }
+.footer{
+    background-color: #2d3e50 !important;
+}
+.contactForm{
+    background-image: url("../img/contact_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border: 0 !important;
+}
 /*sponsor logo*/
     .sponsor{
         max-height: 3rem;
