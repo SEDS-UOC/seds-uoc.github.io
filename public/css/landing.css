@@ -7,6 +7,20 @@
     color:orange;
     transform: scale(2.2,2.2);
     }
+.social-footer{
+    font-size: 30px;
+    color: gray;
+    padding: 25px;
+    border-style: solid;
+    border-radius: 50px;
+    border-width:3px;
+    border-color: gray;
+}
+.social-footer:hover{
+    background-color:orange;
+    color:rgb(0, 0,0);
+    border-color: black;
+}
 .footer{
     background-color: #2d3e50 !important;
 }
