@@ -53,9 +53,9 @@ function loadWordpressPosts() {
           var post_link = resp[i].link;
 
           var card_html = `
-                <div class="column">
+                <div class="item-${i+1}">
                 <div
-                    class="card news-card blue-gradient hvr-icon-wobble-horizontal"
+                    class="card  news-card blue-gradient hvr-icon-wobble-horizontal"
                 >
                     <div class="card-content">
                     <div class="content">
@@ -86,6 +86,17 @@ function loadWordpressPosts() {
                 `;
           document.getElementById("news-items").innerHTML += card_html;
         }
+        bulmaCarousel.attach('#news-items', {
+          slidesToScroll: 1,
+          slidesToShow: 3,
+          breakpoints:[
+            { changePoint: 500, slidesToShow: 1, slidesToScroll: 1 }, 
+          { changePoint: 640, slidesToShow: 1, slidesToScroll: 1 }, 
+          { changePoint: 768, slidesToShow: 1, slidesToScroll: 1 } ],
+          navigationSwipe:true,
+          infinite:true
+        });
+
       } else if (xmlhttp.status == 400) {
         alert("Error 400 in retrieving blog posts.");
       } else {
@@ -96,7 +107,7 @@ function loadWordpressPosts() {
 
   xmlhttp.open(
     "GET",
-    "https://blog.sedsuoc.lk/wp-json/wp/v2/posts?per_page=3&_embed",
+    "https://blog.sedsuoc.lk/wp-json/wp/v2/posts?per_page=9&_embed",
     true
   );
   xmlhttp.send();

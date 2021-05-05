@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="public/css/style.css" />
     <title>SEDS UOC</title>
-<<<<<<< HEAD
     <link rel="icon" type="image/png" href="public/img/favicon.png"/><!--favicon-->
     <link rel="apple-touch-icon" href="public/img/favicon.png">
-=======
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css"><!--for caroual-->
 
 <style>
 /* style for social media icons */
@@ -22,7 +22,6 @@ color:orange;
 transform: scale(2.2,2.2);
 }
 </style>
->>>>>>> e91eefc3c4e7c4cb9aa0a897b774bd661335bef3
   </head>
 
   <body>
@@ -183,12 +182,14 @@ transform: scale(2.2,2.2);
     <!--news section-->
     <div class="news-section">
       <h3 class="title is-3 news-title">News & Events</h3>
-      <div class="row">
-        <div id="news-items" class="columns">Loading...</div>
-      </div>
-      <div class="row">
+      
+        <div id="news-items" class="carousel">
+          Loading...
+        </div>
+      
+      <!--<div class="row">
         <center><i class="fa fa-ellipsis-h scroll-icon"></i></center>
-      </div>
+      </div>-->
     </div>
 
     <!-- Start about section -->
@@ -536,6 +537,10 @@ transform: scale(2.2,2.2);
       </div>
     </footer>
 
-    <script src="public/js/landing.js"></script>
+  
   </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+  <script src="public/js/landing.js"></script>
+
 </html>
