@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth !important;
+  }
 /* style for social media icons */
 .social-icon-set a{
     text-decoration: none;
