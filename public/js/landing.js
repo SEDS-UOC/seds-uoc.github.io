@@ -118,7 +118,7 @@ function animateValue(id, start, end, duration) {
   if (start === end) return;
   var range = end - start;
   var current = start;
-  var increment = start > end? 1 : +1;
+  var increment = end > start? 1 : +1;
   var stepTime = Math.abs(Math.floor(duration / range));
   var obj = document.getElementById(id);
   var timer = setInterval(function() {
@@ -131,3 +131,7 @@ function animateValue(id, start, end, duration) {
 }
 
 animateValue("value", 1, 100, 5000);
+animateValue("value1", 1, 40, 5000);
+animateValue("value2", 1, 40, 5000);
+animateValue("value3", 1, 40, 5000);
+

@@ -9,6 +9,8 @@
     <link rel="icon" type="image/png" href="public/img/favicon.png"/><!--favicon-->
     <link rel="apple-touch-icon" href="public/img/favicon.png">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /><!--for animations-->
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css"><!--for caroual-->
 
     <link rel="stylesheet" href="public/css/landing.css">
@@ -41,7 +43,7 @@
         <div class="navbar-start">
           <a class="navbar-item" href=""> Home </a>
           <a class="navbar-item" href="https://blog.sedsuoc.lk"> Blog </a>
-          <a class="navbar-item" href="#events-news"> News </a>
+          <a class="navbar-item" href="#news-events"> News </a>
           <a class="navbar-item" href="#about-seds-uoc"> About Us </a>
           <a class="navbar-item" href="#contact"> Contact </a>
         </div>
@@ -146,7 +148,7 @@
                 />
               </div>
               <div class="column is-two-thirds">
-                <div class="title is-3 mb-0">40</div>
+                <div class="title is-3 mb-0" id="value1">40</div>
                 <div class="is-6 mt-0">Countries</div>
               </div>
             </div>
@@ -161,7 +163,7 @@
                 />
               </div>
               <div class="column is-two-thirds">
-                <div class="title is-3 mb-0">40</div>
+                <div class="title is-3 mb-0" id="value2">40</div>
                 <div class="is-6 mt-0">Chapters</div>
               </div>
             </div>
@@ -176,7 +178,7 @@
                 />
               </div>
               <div class="column is-two-thirds">
-                <div class="title is-3 mb-0">40</div>
+                <div class="title is-3 mb-0" id="value3">40</div>
                 <div class="is-6 mt-0">Members</div>
               </div>
             </div>
@@ -190,7 +192,7 @@
     </div>
 
     <!--news section-->
-    <div class="news-section">
+    <div class="news-section" id="news-events" data-aos="fade-up">
       <h3 class="title is-3 news-title">News & Events</h3>
       
         <div id="news-items" class="carousel">
@@ -203,11 +205,11 @@
     </div>
 
     <!-- Start about section -->
-    <section id="about-seds-uoc" class="section">
+    <section id="about-seds-uoc" class="section" data-aos="fade-up">
       <div class="container">
-        <h1 class="title">About SEDS UOC</h1>
+        <h1 class="title" data-aos="fade-left">About SEDS UOC</h1>
         <div class="columns is-hidden-touch">
-          <div class="column is-three-quarters">
+          <div class="column is-three-quarters" data-aos="fade-left">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eligendi obcaecati aspernatur
               facilis quos, aut accusantium iste, quae sunt voluptas commodi eius dolor nisi tenetur a possimus
@@ -215,7 +217,7 @@
             </p>
           </div>
           <div class="column">
-            <figure class="image  is-4by3">
+            <figure class="image  is-4by3" data-aos="fade-right">
               <img src="public/images/pic08.jpg" alt="Placeholder image">
             </figure>
           </div>
@@ -233,7 +235,7 @@
     </section>
 
     <!-- Start executive board section -->
-    <section id="executive-board" class="section has-background-primary">
+    <section id="executive-board" class="section has-background-primary" data-aos="fade-up">
       <div class="container">
         <h1 class="title">Executive Board 2020/21</h1>
         <p class="subtitle">
@@ -243,7 +245,7 @@
 
           <div class="column is-one-quarter is-primary center">
             <!--beginning of the cards-->
-            <div class="card card-width">
+            <div class="card card-width" data-aos="fade-right">
 
               <div class="card-image">
                 <figure class="image  is-4by3">
@@ -303,7 +305,7 @@
           </div>
 
           <div class="column is-one-quarter is-primary center">
-            <div class="card card-width">
+            <div class="card card-width" data-aos="fade-right">
 
               <div class="card-image">
                 <figure class="image  is-4by3">
@@ -361,7 +363,7 @@
             </div>
           </div>
           <div class="column is-one-quarter is-primary center">
-            <div class="card card-width">
+            <div class="card card-width" data-aos="fade-right">
 
               <div class="card-image">
                 <figure class="image  is-4by3">
@@ -420,7 +422,7 @@
           </div>
 
           <div class="column is-one-quarter is-primary center">
-            <div class="card card-width">
+            <div class="card card-width" data-aos="fade-right">
 
               <div class="card-image">
                 <figure class="image  is-4by3">
@@ -479,7 +481,7 @@
           </div>
 
           <div class="column is-one-quarter is-primary center">
-            <div class="card card-width">
+            <div class="card card-width" data-aos="fade-right">
 
               <div class="card-image">
                 <figure class="image  is-4by3">
@@ -538,7 +540,7 @@
           </div>
 
           <div class="column is-one-quarter is-primary center">
-            <div class="card card-width">
+            <div class="card card-width" data-aos="fade-right">
 
               <div class="card-image">
                 <figure class="image  is-4by3">
@@ -597,7 +599,7 @@
           </div>
 
           <div class="column is-one-quarter is-primary center">
-            <div class="card card-width">
+            <div class="card card-width" data-aos="fade-right">
 
               <div class="card-image">
                 <figure class="image  is-4by3">
@@ -656,7 +658,7 @@
           </div>
 
           <div class="column is-one-quarter is-primary center">
-            <div class="card card-width">
+            <div class="card card-width" data-aos="fade-right">
 
               <div class="card-image">
                 <figure class="image  is-4by3">
@@ -717,11 +719,13 @@
         </div>
       </div>
     </section>
+    <!--end of the executive board section-->
 
     <section
       id="register"
       class="section"
       style="background-color: cornflowerblue"
+      data-aos="fade-up"
     >
       <div class="container">
         <div class="columns">
@@ -740,7 +744,8 @@
       </div>
     </section>
 
-    <section id="contact" class="section">
+    <!--contact us part-->
+    <section id="contact" class="section" data-aos="fade-up">
       <h1 class="title">Contact</h1>
       <div class="columns is-hidden-touch contactForm">
         <div class="column">
@@ -853,7 +858,9 @@
         </div>
       </div> 
     </section>
-    <footer class="footer">
+
+    <!--footer section-->
+    <footer class="footer" data-aos="fade-up" >
         <div class="columns">
           <div class="column">
             <div class="content has-text-centered">
@@ -945,5 +952,12 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
   <script src="public/js/landing.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script><!--for animations-->
+  <script>
+    AOS.init({
+        offset:300,
+        duration:800
+    });
+  </script>
 
 </html>
