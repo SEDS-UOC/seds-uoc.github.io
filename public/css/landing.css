@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth !important;
+  }
 /* style for social media icons */
 .social-icon-set a{
     text-decoration: none;
@@ -17,18 +20,17 @@
     border-color: gray;
 }
 .social-footer:hover{
-    background-color:orange;
-    color:rgb(0, 0,0);
-    border-color: black;
+    background-color:gray;
+    color:#2d3e50;
 }
 .footer{
     background-color: #2d3e50 !important;
 }
-.contactForm{
-    background-image: url("../img/contact_background.jpg");
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover; 
+#contact{
+    background-image: url("../img/contact_background.jpg") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important; 
+    background-size: cover !important; 
     border: 0 !important;
 }
 /*sponsor logo*/
