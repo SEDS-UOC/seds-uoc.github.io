@@ -17,9 +17,8 @@
     border-color: gray;
 }
 .social-footer:hover{
-    background-color:orange;
-    color:rgb(0, 0,0);
-    border-color: black;
+    background-color:gray;
+    color:#2d3e50;
 }
 .footer{
     background-color: #2d3e50 !important;
