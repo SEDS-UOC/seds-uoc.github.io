@@ -25,10 +25,10 @@
     background-color: #2d3e50 !important;
 }
 #contact{
-    background-image: url("../img/contact_background.jpg");
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    background-image: url("../img/contact_background.jpg") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important; 
+    background-size: cover !important; 
     border: 0 !important;
 }
 /*sponsor logo*/
