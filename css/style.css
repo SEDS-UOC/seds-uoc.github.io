@@ -269,6 +269,12 @@ body {
   background-size: cover;
 }
 
+@media screen and (max-width: 650px) {
+  #form-resize {
+    height: 1400px;
+  }
+}
+
 @keyframes floating-astro-nut {
   0% {
     transform: translatey(0px);
