@@ -273,6 +273,10 @@ body {
   #form-resize {
     height: 1400px;
   }
+
+  #register-form {
+    background-image: none;
+  }
 }
 
 @keyframes floating-astro-nut {
