@@ -4,26 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="public/css/style.css" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css"
+    />
     <title>SEDS UOC</title>
-    <link rel="icon" type="image/png" href="public/img/favicon.png"/><!--favicon-->
-    <link rel="apple-touch-icon" href="public/img/favicon.png">
-
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /><!--for animations-->
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css"><!--for caroual-->
-
-    <link rel="stylesheet" href="public/css/landing.css">
-<style>
-
-</style>
   </head>
 
   <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="https://sedsuoc.lk">
-          <img id="navbar-logo" src="public/img/seds-logo.png" />
+          <img id="navbar-logo" src="img/seds-logo.png" />
         </a>
 
         <a
@@ -49,9 +43,8 @@
         </div>
 
         <div class="navbar-end">
-          <img src="public/img/Velram-Realty-Co.-6-300x100.png" alt="sponsor" class="sponsor">
+          <img src="img/sponsor.png" alt="sponsor" class="sponsor-img" />
           <div class="navbar-item">
-            
             <div class="buttons">
               <a
                 class="button is-primary nav-signup is-rounded hvr-icon-forward"
@@ -63,7 +56,6 @@
                 </span>
               </a>
             </div>
-
           </div>
         </div>
       </div>
@@ -71,892 +63,349 @@
 
     <div class="welcome-container">
       <div class="columns">
-        <div class="column is-5 title-column">
-          <div class="is-hidden-touch">
-            <h1 class="title is-1 mb-0" id="maintopic">
-              Students for the Exploration and Development of Space.
-            </h1>
-            <h4 class="title is-4 mt-0" id="subtopic">University of Colombo</h4>
-          </div>
-          <div class="is-hidden-desktop">
-            <h1 class="title is-3 mb-0" id="maintopic">
-              Students for the Exploration and Development of Space.
-            </h1>
-            <h4 class="title is-6 mt-0" id="subtopic">University of Colombo</h4>
-          </div>
+        <div class="column is-5 mt-0 ml-1 title-column">
+          <h1 id="welcome-title" class="title is-1 mt-0 pt-0 mb-0">
+            Students for the Exploration and Development of Space.
+          </h1>
+          <h4 id="welcome-uni" class="title is-4 mt-0">
+            University of Colombo
+          </h4>
           <a class="button is-primary nav-signup is-rounded hvr-icon-forward">
             <span>See More</span>
             <span class="icon is-small hvr-icon">
               <i class="fa fa-angle-right"></i>
             </span>
           </a>
-          <div class="row mt-1 social-icon-set">
-            <a href="#">
-              <span class="icon is-small mr-1 social">
-                <i class="fab fa-twitter"></i>
-              </span>
-            </a>
-            <a href="https://www.facebook.com/sedsuoc/">
-              <span class="icon is-small mr-1 social">
-                <i class="fab fa-facebook"></i>
-              </span>
-            </a>
-            <a href="https://www.instagram.com/sedsuoc/">
-              <span class="icon is-small mr-1 social">
-                <i class="fab fa-instagram"></i>
-              </span>
-            </a>
-            <a href="#">
-              <span class="icon is-small mr-1 social">
-                <i class="fab fa-youtube"></i>
-              </span>
-            </a>
-            <a href="https://www.linkedin.com/company/seds-uoc/about/">
-              <span class="icon is-small mr-1 social">
-                <i class="fab fa-linkedin"></i>
-              </span>
-            </a>
+          <div class="row mt-1">
+            <span class="icon is-small ml-2 mr-2">
+              <a href="https://twitter.com/seds_uoc">
+                <i class="fab fa-lg fa-twitter welcome-social"></i>
+              </a>
+            </span>
+            <span class="icon is-small mr-2">
+              <a href="https://www.facebook.com/sedsuoc/">
+                <i class="fab fa-lg fa-facebook welcome-social"></i>
+              </a>
+            </span>
+            <span class="icon is-small mr-2">
+              <a href="https://www.instagram.com/sedsuoc/">
+                <i class="fab fa-lg fa-instagram welcome-social"></i>
+              </a>
+            </span>
+            <span class="icon is-small mr-2">
+              <a href="https://www.youtube.com/channel/UCNxdWPmZgjpGytZgoAkZbLA">
+                <i class="fab fa-lg fa-youtube welcome-social"></i>
+              </a>
+            </span>
           </div>
-          <!-- Original social media icon set -->
-          <!--
-            <div class="row mt-1">
-            <span class="icon is-small mr-1">
-              <i class="fab fa-twitter"></i>
-            </span>
-            <span class="icon is-small mr-1">
-              <i class="fab fa-facebook"></i>
-            </span>
-            <span class="icon is-small mr-1">
-              <i class="fab fa-instagram"></i>
-            </span>
-            <span class="icon is-small mr-1">
-              <i class="fab fa-youtube"></i>
-            </span>
-          </div> -->
         </div>
+
         <div class="column is-4"></div>
 
         <!--beginning of the side container-->
-        <div class="column is-3 stat-column is-hidden-mobile" id="sidecontainer">
-          <div class="row mb-2">
-            <div class="columns">
-              <div class="column is-one-quarter">
-                <img
-                  class="welcome-icon"
-                  src="https://www.flaticon.com/svg/vstatic/svg/4631/4631325.svg?token=exp=1620022011~hmac=a31fc5136a70438652b5330bb91ef40d"
-                  alt=""
-                />
-              </div>
-              <div class="column is-two-thirds">
-                <div class="title is-3 mb-0" id="value1">40</div>
-                <div class="is-6 mt-0">Countries</div>
-              </div>
-            </div>
+        <div class="column is-3 is-hidden-mobile" id="sidecontainer">
+          <div id="cunties-div" class="row mb-2">
+            <div class="title is-3 mb-0" id="cunties">20</div>
+            <div class="title is-5 mt-0">Countries</div>
           </div>
-          <div class="row mb-2">
-            <div class="columns">
-              <div class="column is-one-quarter">
-                <img
-                  class="welcome-icon"
-                  src="https://www.flaticon.com/svg/vstatic/svg/4631/4631197.svg?token=exp=1620022316~hmac=3af5219f0df71e387f8daf6b8492218d"
-                  alt=""
-                />
-              </div>
-              <div class="column is-two-thirds">
-                <div class="title is-3 mb-0" id="value2">40</div>
-                <div class="is-6 mt-0">Chapters</div>
-              </div>
-            </div>
+          <br />
+          <div id="chappies-div" class="row mb-2">
+            <div class="title is-3 mb-0" id="chappies">100</div>
+            <div class="title is-5 mt-0">Chapters</div>
           </div>
-          <div class="row">
-            <div class="columns">
-              <div class="column is-one-quarter">
-                <img
-                  class="welcome-icon"
-                  src="https://www.flaticon.com/svg/vstatic/svg/4631/4631319.svg?token=exp=1620022316~hmac=55f6b6b2264733d5c262d416a36c536c"
-                  alt=""
-                />
-              </div>
-              <div class="column is-two-thirds">
-                <div class="title is-3 mb-0" id="value3">40</div>
-                <div class="is-6 mt-0">Members</div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div id="value">1</div>
+          <br />
+          <div id="memebers-div" class="row mb-2">
+            <div class="title is-3 mb-0" id="memebers">999+</div>
+            <div class="title is-5 mt-0">Members</div>
           </div>
         </div>
-        <!--end of side container-->
+        <!--end of the side container-->
       </div>
     </div>
 
-    <!--news section-->
-    <div class="news-section" id="news-events" data-aos="fade-up">
+    <div id="news-events" class="news-section">
       <h3 class="title is-3 news-title">News & Events</h3>
-      
-        <div id="news-items" class="carousel">
-          Loading...
+      <div class="row">
+        <div id="news-carousel" class="columns carousel">
+          <p style="color: white; left: 0; font-size: large">
+            🚀 Loading data from all planets...
+          </p>
         </div>
-      
-      <!--<div class="row">
-        <center><i class="fa fa-ellipsis-h scroll-icon"></i></center>
-      </div>-->
+      </div>
     </div>
 
     <!-- Start about section -->
-    <section id="about-seds-uoc" class="section" data-aos="fade-up">
+    <section id="about-seds-uoc" class="section">
       <div class="container">
-        <h1 class="title" data-aos="fade-left">About SEDS UOC</h1>
-        <div class="columns is-hidden-touch">
-          <div class="column is-three-quarters" data-aos="fade-left">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eligendi obcaecati aspernatur
-              facilis quos, aut accusantium iste, quae sunt voluptas commodi eius dolor nisi tenetur a possimus
-              quis dolorem deserunt!
+        <div class="columns">
+          <div class="column is-7">
+            <h1 class="title mb-0">A bit about SEDS UOC</h1>
+            <h6 class="is-6 subtitle mt-0">
+              A dedicated society, shooting for the stars
+            </h6>
+
+            <p class="mt-2 has-text-justified">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum
             </p>
-          </div>
-          <div class="column">
-            <figure class="image mt-0  is-4by3">
-              <img src="public/images/4.PNG" alt="Placeholder image">
-            </figure>
-          </div>
-        </div> 
-        <div class="columns is-hidden-desktop">
-          <div class="column">Auto
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eligendi obcaecati aspernatur
-              facilis quos, aut accusantium iste, quae sunt voluptas commodi eius dolor nisi tenetur a possimus
-              quis dolorem deserunt!
+            <p class="mt-1 has-text-justified">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum
             </p>
+            <p class="mt-1 has-text-justified">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting,
+            </p>
+            <a
+              class="button is-primary nav-signup is-rounded hvr-icon-forward mt-2"
+              href="https://www.youtube.com/channel/UCNxdWPmZgjpGytZgoAkZbLA"
+              target="_blank"
+            >
+              <span>Our Events</span>
+              <span class="icon is-small">
+                <i class="fa fa-long-arrow-alt-right hvr-icon"></i>
+              </span>
+            </a>
           </div>
-        </div>     
-      </div>
-    </section>
-
-    <!-- Start executive board section -->
-    <section id="executive-board" class="section has-background-primary" data-aos="fade-up">
-      <div class="container">
-        <h1 class="title">Executive Board 2020/21</h1>
-        <p class="subtitle">
-          We are working hard to bring you all the spacey things in our events
-        </p>
-        <div class="columns is-multiline">
-
-          <div class="column is-one-quarter is-primary center">
-            <!--beginning of the cards-->
-            <div class="card card-width" data-aos="fade-right">
-
-              <div class="card-image">
-                <figure class="image  is-4by3">
-                  <img src="public/images/pic08.jpg" alt="Placeholder image">
-                </figure>
-              </div>
-        
-              <div class="card-content">
-                <div class="media">
-
-                  <div class="media-content black">
-                    <p class="title is-4">Name</p>
-                    <p class="subtitle is-6">Position</p>
-
-                    <!--icons-->
-                    <div class="iconset">
-                      <!--socail icons of the card-->
-                      <div class="row mt-1 social-icon-set">
-                        <a href="#">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-twitter"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.facebook.com/sedsuoc/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-facebook"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.instagram.com/sedsuoc/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-instagram"></i>
-                          </span>
-                        </a>
-                        <a href="#">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fas solid alt fa-envelope"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.linkedin.com/company/seds-uoc/about/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-linkedin"></i>
-                          </span>
-                        </a>
-                      </div>
-                      <!--end of the icons-->
-                    </div>
-                    <!--end of icons-->
-                  </div>
-                </div>
-
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris.
-                </div>
-              </div>
-            </div>
+          <div class="column is 5 has-text-centered">
+            <img src="./img/about.jpg" alt="" class="" />
           </div>
-
-          <div class="column is-one-quarter is-primary center">
-            <div class="card card-width" data-aos="fade-right">
-
-              <div class="card-image">
-                <figure class="image  is-4by3">
-                  <img src="public/images/pic08.jpg" alt="Placeholder image">
-                </figure>
-              </div>
-        
-              <div class="card-content">
-                <div class="media">
-
-                  <div class="media-content black">
-                    <p class="title is-4">Name</p>
-                    <p class="subtitle is-6">Position</p>
-                                        <!--icons-->
-                    <div class="iconset">
-                      <!--socail icons of the card-->
-                      <div class="row mt-1 social-icon-set">
-                        <a href="#">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-twitter"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.facebook.com/sedsuoc/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-facebook"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.instagram.com/sedsuoc/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-instagram"></i>
-                          </span>
-                        </a>
-                        <a href="#">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fas solid alt fa-envelope"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.linkedin.com/company/seds-uoc/about/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-linkedin"></i>
-                          </span>
-                        </a>
-                      </div>
-                      <!--end of the icons-->
-                    </div>
-                    <!--end of icons-->
-                  </div>
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="column is-one-quarter is-primary center">
-            <div class="card card-width" data-aos="fade-right">
-
-              <div class="card-image">
-                <figure class="image  is-4by3">
-                  <img src="public/images/pic08.jpg" alt="Placeholder image">
-                </figure>
-              </div>
-        
-              <div class="card-content">
-                <div class="media">
-
-                  <div class="media-content black">
-                    <p class="title is-4">Name</p>
-                    <p class="subtitle is-6">Position</p>
-                                       <!--icons-->
-                    <div class="iconset">
-                      <!--socail icons of the card-->
-                      <div class="row mt-1 social-icon-set">
-                        <a href="#">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-twitter"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.facebook.com/sedsuoc/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-facebook"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.instagram.com/sedsuoc/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-instagram"></i>
-                          </span>
-                        </a>
-                        <a href="#">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fas solid alt fa-envelope"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.linkedin.com/company/seds-uoc/about/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-linkedin"></i>
-                          </span>
-                        </a>
-                      </div>
-                      <!--end of the icons-->
-                    </div>
-                    <!--end of icons-->
-                  </div>
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris.
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="column is-one-quarter is-primary center">
-            <div class="card card-width" data-aos="fade-right">
-
-              <div class="card-image">
-                <figure class="image  is-4by3">
-                  <img src="public/images/pic08.jpg" alt="Placeholder image">
-                </figure>
-              </div>
-        
-              <div class="card-content">
-                <div class="media">
-
-                  <div class="media-content black">
-                    <p class="title is-4">Name</p>
-                    <p class="subtitle is-6">Position</p>
-                                       <!--icons-->
-                    <div class="iconset">
-                      <!--socail icons of the card-->
-                      <div class="row mt-1 social-icon-set">
-                        <a href="#">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-twitter"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.facebook.com/sedsuoc/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-facebook"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.instagram.com/sedsuoc/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-instagram"></i>
-                          </span>
-                        </a>
-                        <a href="#">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fas solid alt fa-envelope"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.linkedin.com/company/seds-uoc/about/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-linkedin"></i>
-                          </span>
-                        </a>
-                      </div>
-                      <!--end of the icons-->
-                    </div>
-                    <!--end of icons-->
-                  </div>
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris.
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="column is-one-quarter is-primary center">
-            <div class="card card-width" data-aos="fade-right">
-
-              <div class="card-image">
-                <figure class="image  is-4by3">
-                  <img src="public/images/pic08.jpg" alt="Placeholder image">
-                </figure>
-              </div>
-        
-              <div class="card-content">
-                <div class="media">
-
-                  <div class="media-content black">
-                    <p class="title is-4">Name</p>
-                    <p class="subtitle is-6">Position</p>
-                                       <!--icons-->
-                    <div class="iconset">
-                      <!--socail icons of the card-->
-                      <div class="row mt-1 social-icon-set">
-                        <a href="#">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-twitter"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.facebook.com/sedsuoc/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-facebook"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.instagram.com/sedsuoc/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-instagram"></i>
-                          </span>
-                        </a>
-                        <a href="#">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fas solid alt fa-envelope"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.linkedin.com/company/seds-uoc/about/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-linkedin"></i>
-                          </span>
-                        </a>
-                      </div>
-                      <!--end of the icons-->
-                    </div>
-                    <!--end of icons-->
-                  </div>
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris.
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="column is-one-quarter is-primary center">
-            <div class="card card-width" data-aos="fade-right">
-
-              <div class="card-image">
-                <figure class="image  is-4by3">
-                  <img src="public/images/pic08.jpg" alt="Placeholder image">
-                </figure>
-              </div>
-        
-              <div class="card-content">
-                <div class="media">
-
-                  <div class="media-content black">
-                    <p class="title is-4">Name</p>
-                    <p class="subtitle is-6">Position</p>
-                                       <!--icons-->
-                    <div class="iconset">
-                      <!--socail icons of the card-->
-                      <div class="row mt-1 social-icon-set">
-                        <a href="#">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-twitter"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.facebook.com/sedsuoc/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-facebook"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.instagram.com/sedsuoc/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-instagram"></i>
-                          </span>
-                        </a>
-                        <a href="#">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fas solid alt fa-envelope"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.linkedin.com/company/seds-uoc/about/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-linkedin"></i>
-                          </span>
-                        </a>
-                      </div>
-                      <!--end of the icons-->
-                    </div>
-                    <!--end of icons-->
-                  </div>
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris.
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="column is-one-quarter is-primary center">
-            <div class="card card-width" data-aos="fade-right">
-
-              <div class="card-image">
-                <figure class="image  is-4by3">
-                  <img src="public/images/pic08.jpg" alt="Placeholder image">
-                </figure>
-              </div>
-        
-              <div class="card-content">
-                <div class="media">
-
-                  <div class="media-content black">
-                    <p class="title is-4">Name</p>
-                    <p class="subtitle is-6">Position</p>
-                                       <!--icons-->
-                    <div class="iconset">
-                      <!--socail icons of the card-->
-                      <div class="row mt-1 social-icon-set">
-                        <a href="#">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-twitter"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.facebook.com/sedsuoc/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-facebook"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.instagram.com/sedsuoc/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-instagram"></i>
-                          </span>
-                        </a>
-                        <a href="#">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fas solid alt fa-envelope"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.linkedin.com/company/seds-uoc/about/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-linkedin"></i>
-                          </span>
-                        </a>
-                      </div>
-                      <!--end of the icons-->
-                    </div>
-                    <!--end of icons-->
-                  </div>
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris.
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="column is-one-quarter is-primary center">
-            <div class="card card-width" data-aos="fade-right">
-
-              <div class="card-image">
-                <figure class="image  is-4by3">
-                  <img src="public/images/pic08.jpg" alt="Placeholder image">
-                </figure>
-              </div>
-        
-              <div class="card-content">
-                <div class="media">
-
-                  <div class="media-content black">
-                    <p class="title is-4">Name</p>
-                    <p class="subtitle is-6">Position</p>
-                                       <!--icons-->
-                    <div class="iconset">
-                      <!--socail icons of the card-->
-                      <div class="row mt-1 social-icon-set">
-                        <a href="#">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-twitter"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.facebook.com/sedsuoc/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-facebook"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.instagram.com/sedsuoc/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-instagram"></i>
-                          </span>
-                        </a>
-                        <a href="#">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fas solid alt fa-envelope"></i>
-                          </span>
-                        </a>
-                        <a href="https://www.linkedin.com/company/seds-uoc/about/">
-                          <span class="icon is-small mr-1 social">
-                            <i class="fab fa-linkedin"></i>
-                          </span>
-                        </a>
-                      </div>
-                      <!--end of the icons-->
-                    </div>
-                    <!--end of icons-->
-                  </div>
-                </div>
-            
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris.
-                </div>
-              </div>
-            </div>
-          </div>
-<!--end of the cards-->
         </div>
       </div>
     </section>
-    <!--end of the executive board section-->
 
-    <section
-      id="register"
-      class="section"
-      style="background-color: cornflowerblue"
-      data-aos="fade-up"
-    >
-      <div class="container">
+    <section id="register" class="section">
+      <div class="container register-container">
         <div class="columns">
           <div class="column">
-            <p class="subtitle">
-              Excited already? then go register. join with us in our
-              quest to find all the aliens in the galaxy
-            </p>
+            <h3 class="subtitle mt-0 is-3">
+              Why let gravity hold you back? Get registered now and be a part of
+              SEDS UOC, where explorations meet reality.
+            </h3>
           </div>
           <div class="column is-one-quarter has-text-centered">
-            <button class="button is-warning">
-              <strong>REGISTER NOW</strong>
+            <button class="button is-warning is-rounded register-button">
+              <strong>Register Now</strong>
             </button>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="section" data-aos="fade-up">
-      <h1 class="title has-text-white">Contact</h1>
-      <div class="columns is-hidden-touch mt-0">
-        <div class="column">
-        </div>
-        <div class="column">
-          <div class="field">
-            <div class="columns">
-              <div class="column">
-                <div class="field">
-                  <label class="label has-text-white">Name</label>
-                  <div class="control">
-                    <input
-                      class="input"
-                      type="text"
-                      placeholder="e.g Alex Smith"
-                    />
-                  </div>
-                </div>
-  
-                <div class="field">
-                  <label class="label has-text-white">Email</label>
-                  <div class="control">
-                    <input
-                      class="input"
-                      type="email"
-                      placeholder="e.g. alexsmith@gmail.com"
-                    />
-                  </div>
-                </div>
-  
-                <div class="field">
-                  <label class="label has-text-white">Message</label>
-                  <div class="control">
-                    <textarea
-                      class="textarea"
-                      placeholder="Explain how we can help you"
-                    ></textarea>
-                  </div>
-                </div>
-  
-                <div class="field">
-                  <div class="field-label">
-                    <!-- Left empty for spacing -->
-                  </div>
-                  <div class="field-body">
-                    <div class="field">
-                      <div class="control">
-                        <button class="button is-warning">Send message</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <!-- Start executive board section -->
+    <section id="executive-board" class="section">
+      <div class="container">
+        <h1 class="title">Executive Board 2020/21</h1>
+        <p class="subtitle">
+          We are working hard to bring you all the spacey things in our events!
+        </p>
+        <div class="columns">
+          <div class="column is-1 mt-0"></div>
+          <div class="column is-10 mt-0 mr-1">
+            <!-- Exco cards will render here -->
+            <div id="exco-cards-holder" class="exco-cards-holder"></div>
           </div>
+          <div class="column is-1 mt-2"></div>
         </div>
-      </div> 
-      <div class="columns is-hidden-desktop mt-0">
-        <div class="column">
-          <div class="field">
-            <div class="columns">
-              <div class="column">
-                <div class="field">
-                  <label class="label has-text-white">Name</label>
-                  <div class="control">
-                    <input
-                      class="input"
-                      type="text"
-                      placeholder="e.g Alex Smith"
-                    />
-                  </div>
-                </div>
-  
-                <div class="field">
-                  <label class="label has-text-white">Email</label>
-                  <div class="control">
-                    <input
-                      class="input"
-                      type="email"
-                      placeholder="e.g. alexsmith@gmail.com"
-                    />
-                  </div>
-                </div>
-  
-                <div class="field">
-                  <label class="label has-text-white">Message</label>
-                  <div class="control">
-                    <textarea
-                      class="textarea"
-                      placeholder="Explain how we can help you"
-                    ></textarea>
-                  </div>
-                </div>
-  
-                <div class="field">
-                  <div class="field-label">
-                    <!-- Left empty for spacing -->
-                  </div>
-                  <div class="field-body">
-                    <div class="field">
-                      <div class="control">
-                        <button class="button is-warning">Send message</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
+      </div>
     </section>
 
+    <div id="contact-modal" class="modal">
+      <div
+        class="modal-background"
+        onclick="document.getElementById('contact-modal').classList.remove('is-active');"
+      ></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p id="modal-title" class="modal-card-title">Message Sent!</p>
+          <button
+            class="delete"
+            aria-label="close"
+            onclick="document.getElementById('contact-modal').classList.remove('is-active');"
+          ></button>
+        </header>
+        <section id="modal-description" class="modal-card-body">
+          Your message was successfully delivered. <br />
+          Thank you for sharing your thoughts with SEDS UOC!
+        </section>
+        <footer class="modal-card-foot">
+          <center>
+            <button
+              id="modal-button"
+              class="button is-warning"
+              onclick="document.getElementById('contact-modal').classList.remove('is-active');"
+            >
+              Okay
+            </button>
+          </center>
+        </footer>
+      </div>
+    </div>
+    <section id="contact" class="section">
+      <div class="container">
+        <h1 class="title is-white-font">Contact Us</h1>
+        <form id="contact-form" onsubmit="return sendMessage();">
+          <div class="field">
+            <div class="columns">
+              <div class="column is-5 is-white-font is-size-4">
+                Feel free to drop us a message to ask about anything!
+                <img
+                  id="astro-nut"
+                  class="is-hidden-mobile"
+                  src="img/astro-nut.png"
+                  alt="Astro Nut"
+                />
+              </div>
+              <div class="column is-7">
+                <div class="field">
+                  <label class="label is-white-font is-size-5">Name</label>
+                  <div class="control">
+                    <input
+                      id="contact-name"
+                      class="input"
+                      type="text"
+                      placeholder="e.g Alex Smith"
+                      required
+                    />
+                  </div>
+                </div>
 
-    <footer class="footer mt-0" data-aos="fade-up">
-        <div class="columns">
-          <div class="column">
-            <div class="content has-text-centered">
-              <h1 class="title is-3 mb-0 has-text-white	">LOCATION</h1>
-              <address>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dicta reprehenderit officia ipsam consequatur voluptatem, 
-                aliquid reiciendis omnis cum nisi incidunt dignissimos cupiditate nesciunt, explicabo sit? Officia laborum nisi mollitia?</address> 
-            </div>         
-          </div>
-          <div class="column">
-            <div class="content has-text-centered">
-              <h1 class="title is-3 mb-0 has-text-white	">AROUND THE WEB</h1> 
-              <div class="row mt-1 social-icon-set">
-                <a href="#">
-                  <span class="icon is-small mr-1 social-footer">
-                    <i class="fab fa-twitter"></i>
-                  </span>
-                </a>
-                <a href="https://www.facebook.com/sedsuoc/">
-                  <span class="icon is-small mr-1 social-footer">
-                    <i class="fab fa-facebook-f"></i>                  
-                  </span>
-                </a>
-                <a href="https://www.instagram.com/sedsuoc/">
-                  <span class="icon is-small mr-1 social-footer">
-                    <i class="fab fa-instagram"></i>
-                  </span>
-                </a>
-                <a href="#">
-                  <span class="icon is-small mr-1 social-footer">
-                    <i class="fab fa-youtube"></i>
-                  </span>
-                </a>
-                <a href="https://www.linkedin.com/company/seds-uoc/about/">
-                  <span class="icon is-small mr-1 social-footer">
-                    <i class="fab fa-linkedin-in"></i>
-                  </span>
-                </a>
-              </div>   
+                <div class="field">
+                  <label class="label is-white-font is-size-5">Email</label>
+                  <div class="control">
+                    <input
+                      id="contact-email"
+                      class="input"
+                      type="email"
+                      placeholder="e.g. alexsmith@gmail.com"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label class="label is-white-font is-size-5">Message</label>
+                  <div class="control">
+                    <textarea
+                      id="contact-message"
+                      class="textarea"
+                      placeholder="Explain how we can help you, or send a hello!"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+
+                <div class="field">
+                  <div class="field-label">
+                    <!-- Left empty for spacing -->
+                  </div>
+                  <div class="field-body">
+                    <div class="field">
+                      <div class="control">
+                        <button
+                          class="button is-warning color-yellow is-rounded"
+                          type="submit"
+                        >
+                          <b>Send Message</b>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="column">
-            <div class="content has-text-centered">
-              <h1 class="title is-3 mb-0 has-text-white	">ABOUT</h1> 
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, delectus
-                impedit ratione ad labore quam quia, tenetur vitae doloremque odit saepe, eveniet dolore provident. Sequi culpa
-                magnam ad praesentium saepe?
-              </p>   
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class="columns">
-          <div class="column">
-            <div class="content has-text-centered">
-              <p class="has-text-grey-lighter">
-                <strong>Site</strong> by
-                <a href="https://sedsuoc.lk">SEDS UOC DEV TEAM</a>. The source code is
-                licensed
-                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
-                website content is licensed
-                <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
-                  >CC BY NC SA 4.0</a
-                >.
-              </p>
-            </div>
-          </div>
-        </div>
-    </footer>
-<!--     
+        </form>
+      </div>
+    </section>
+
     <footer class="footer">
-      <div class="content has-text-centered">
-        <p>
-          <strong>Site</strong> by
-          <a href="https://sedsuoc.lk">SEDS UOC DEV TEAM</a>. The source code is
-          licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
-          website content is licensed
-          <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
-            >CC BY NC SA 4.0</a
-          >.
+      <div class="columns">
+        <div class="column">
+          <div class="content has-text-centered">
+            <h3 class="title has-text-white">Location</h3>
+          </div>
+          <p class="is-info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+            delectus impedit ratione ad labore quam quia, tenetur vitae
+            doloremque odit saepe, eveniet dolore provident. Sequi culpa magnam
+            ad praesentium saepe?
+          </p>
+        </div>
+        <div class="column">
+          <div class="content has-text-centered">
+            <h3 class="title has-text-white">Follow Us</h3>
+          </div>
+          <div class="row mt-1 social-icon-set has-text-centered">
+            <a href="https://twitter.com/seds_uoc">
+              <span class="icon is-small mr-1 social-icons">
+                <i class="fab fa-twitter"></i>
+              </span>
+            </a>
+            <a href="https://www.facebook.com/sedsuoc/">
+              <span class="icon is-small mr-1 social-icons">
+                <i class="fab fa-facebook-f"></i>
+              </span>
+            </a>
+            <a href="https://www.instagram.com/sedsuoc/">
+              <span class="icon is-small mr-1 social-icons">
+                <i class="fab fa-instagram"></i>
+              </span>
+            </a>
+            <a href="https://www.youtube.com/channel/UCNxdWPmZgjpGytZgoAkZbLA">
+              <span class="icon is-small mr-1 social-icons">
+                <i class="fab fa-youtube"></i>
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/company/seds-uoc/about/">
+              <span class="icon is-small mr-1 social-icons">
+                <i class="fab fa-linkedin-in"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content has-text-centered">
+            <h3 class="title has-text-white justify-text">About</h3>
+          </div>
+          <p class="is-info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+            delectus impedit ratione ad labore quam quia, tenetur vitae
+            doloremque odit saepe, eveniet dolore provident. Sequi culpa magnam
+            ad praesentium saepe?
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div id="footer-copyright" class="content has-text-centered">
+        <p class="has-text-white">
+          (C) 2021 SEDS UOC - Maintained by the
+          <a href="mailto:admin@sedsuoc.lk" class="has-text-white">Web Team</a>.
         </p>
       </div>
-    </footer> 
-  -->
+    </footer>
 
-  
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+    <script src="js/landing.js"></script>
   </body>
-
-  <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
-  <script src="public/js/landing.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script><!--for animations-->
-  <script>
-    AOS.init({
-        offset:300,
-        duration:800
-    });
-  </script>
-
 </html>

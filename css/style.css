@@ -1,0 +1,304 @@
+@import url("https://unpkg.com/bulma@0.8.0/css/bulma.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap");
+@import url("./helpers.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css");
+
+@font-face {
+  font-family: GalanoGrotesqueBold;
+  src: url("../font/font.woff");
+}
+/* Colors */
+.color-yellow {
+  background-color: #f9cc56 !important;
+}
+.pink-gradient {
+  background-image: linear-gradient(to right, #fbeef7, #fae2f5) !important;
+}
+.blue-gradient {
+  background-image: linear-gradient(to right, #e8f9fe, #f0eefb) !important;
+}
+.brown-gradient {
+  background-image: linear-gradient(to right, #fcf9f0, #f1e6d5) !important;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: "GalanoGrotesqueBold", sans-serif !important;
+}
+
+/* Navbar */
+.nav-signup {
+  color: black !important;
+  background-color: #f9cc56 !important ;
+}
+
+.sponsor-img {
+  max-height: 3rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+/* Welcome section */
+.welcome-container {
+  background-image: url("../img/bg.jpg");
+  background-color: white;
+  height: calc(100vh - 3.25rem);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.welcome-container > .columns > .column {
+  position: relative;
+  top: calc(50vh - 3.25rem);
+  transform: translateY(-50%);
+  align-self: center !important;
+}
+.title-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+#welcome-title {
+  word-break: keep-all !important;
+}
+
+.welcome-social {
+  color: #444 !important;
+}
+.welcome-social:hover {
+  color: #ffc226 !important;
+}
+
+/* Fix weird behaviour of news cards in mobile */
+@media screen and (max-width: 768px) {
+  .welcome-container {
+    background-position: bottom;
+    background-size: contain;
+    background-image: url("../img/bg_mobi.jpg");
+  }
+  .welcome-container > .columns > .column {
+    top: calc(35vh - 3.25rem);
+  }
+  #welcome-title {
+    font-size: 2em !important;
+    /* color: #fff;
+        text-shadow: 2px 3px 10px black; */
+  }
+  /* #welcome-uni{
+        color: #fff;
+        text-shadow: 2px 3px 10px black;
+    } */
+}
+
+.stat-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#cunties-div,
+#chappies-div,
+#memebers-div {
+  visibility: hidden;
+}
+
+@keyframes stat-fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#sidecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* News Section */
+.news-section {
+  background-color: #1d0831 !important;
+  padding: 2rem;
+  overflow-x: hidden;
+}
+.news-title {
+  color: #fff !important;
+}
+.news-card {
+  border-radius: 10px;
+  margin: 10px;
+}
+.news-card-content {
+  position: relative;
+  padding: 1em;
+  height: 220px;
+}
+.news-card-see-more {
+  position: absolute;
+  bottom: 1em;
+}
+.news-card-text > p {
+  font-size: 0.8rem !important;
+}
+
+.news-card-image {
+  border-radius: 10px;
+}
+
+/* Fix weird behaviour of news cards in mobile */
+@media screen and (max-width: 768px) {
+  .news-card-content {
+    height: auto;
+  }
+  .news-card-see-more {
+    position: relative;
+  }
+}
+
+.scroll-icon {
+  color: white !important;
+  font-size: 1.5rem;
+}
+
+#about-seds {
+  background-color: #fff;
+}
+#about-seds p {
+  font-family: "Mukta", sans-serif;
+}
+
+/* register section  bl#123A67 */
+#register {
+  display: flex;
+  padding-top: 0;
+  background-image: url(../img/bg_register.jpg);
+  background-size: contain;
+  background-position: bottom;
+}
+@media screen and (max-width: 901px) {
+  #register {
+    background-repeat: no-repeat !important;
+  }
+}
+.register-button {
+  background-color: #ef715e !important;
+  color: #fff !important;
+}
+.register-container {
+  height: 21em;
+}
+
+/* executive-board section */
+#executive-board {
+  display: flex;
+  /* background-color: rgba(231, 241, 251, 0.5); */
+  vertical-align: middle;
+}
+
+#executive-board .card {
+  border-radius: 10px;
+  box-shadow: 5px 10px 25px -5px #888888;
+}
+
+.exco-cards-holder {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30em);
+  place-content: center;
+  gap: 1rem;
+}
+/* Reduce the card size in mobile view */
+@media screen and (max-width: 540px) {
+  .exco-cards-holder {
+    grid-template-columns: repeat(auto-fit, 18em) !important;
+  }
+  .eb-title-container {
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .eb-title-container {
+    text-align: center !important;
+    margin-top: 0 !important;
+    padding-top: 0;
+  }
+}
+
+.eb-img {
+  max-height: 6rem;
+  max-width: 6rem;
+  border-radius: 50%;
+}
+
+/* Change navbar logo size  */
+#navbar-logo {
+  max-height: 3.5rem !important;
+}
+
+/* Change font to white */
+.is-white-font {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+#contact {
+  background-image: url("../img/bg_contact_blur-min.jpg");
+  background-size: cover;
+}
+
+#astro-nut {
+  filter: drop-shadow(10px 10px 8px #222);
+  transform: translatey(0px);
+  animation: floating-astro-nut 6s ease-in-out infinite;
+}
+
+#register-form {
+  background-image: url("../img/bg_register23.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@keyframes floating-astro-nut {
+  0% {
+    filter: drop-shadow(0 5px 15px 0px rgba(0, 0, 0, 0.6));
+    transform: translatey(0px);
+  }
+  50% {
+    filter: drop-shadow(0 25px 15px 0px rgba(0, 0, 0, 0.2));
+    transform: translatey(-50px);
+  }
+  100% {
+    filter: drop-shadow(0 5px 15px 0px rgba(0, 0, 0, 0.6));
+    transform: translatey(0px);
+  }
+}
+
+.footer {
+  background-color: #080e30;
+  margin-bottom: 0 !important;
+  padding-bottom: 1em !important;
+  color: #209cee;
+}
+
+footer .social-icons {
+  font-size: 26px;
+  padding: 25px;
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 3px;
+}
+
+footer .social-icons:hover {
+  color: #c53678;
+}
