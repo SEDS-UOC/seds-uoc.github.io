@@ -203,7 +203,6 @@ body {
 /* executive-board section */
 #executive-board {
   display: flex;
-  /* background-color: rgba(231, 241, 251, 0.5); */
   vertical-align: middle;
 }
 
