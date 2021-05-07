@@ -1,32 +1,13 @@
 // ---------------------------------------------
-// Hamburger functionality
+// Do activities after loading document
 
 document.addEventListener("DOMContentLoaded", () => {
   // Animate numbers first
   animateNumbers();
   // Load wordpress posts
   loadWordpressPosts();
-  // Get all "navbar-burger" elements
-  const $navbarBurgers = Array.prototype.slice.call(
-    document.querySelectorAll(".navbar-burger"),
-    0
-  );
-
-  // Check if there are any navbar burgers
-  if ($navbarBurgers.length > 0) {
-    // Add a click event on each of them
-    $navbarBurgers.forEach((el) => {
-      el.addEventListener("click", () => {
-        // Get the target from the "data-target" attribute
-        const target = el.dataset.target;
-        const $target = document.getElementById(target);
-
-        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-        el.classList.toggle("is-active");
-        $target.classList.toggle("is-active");
-      });
-    });
-  }
+  // Add hambug functionality
+  activateHambugs(); // Include navbar.js first!
 });
 
 //Load data from the JSON and render exco cards
@@ -92,7 +73,7 @@ window.onload = async function () {
       `;
       });
     }
-    console.log(dataJson);
+    // console.log(dataJson);
   } catch (e) {
     console.error(e);
   }
@@ -193,12 +174,15 @@ function animateValue(id, start, end, duration, nextFunction = null) {
   var timer = setInterval(function () {
     current += increment;
     obj.innerHTML = current;
-    if (current == end) {
-      clearInterval(timer);
-      obj.innerHTML += "+";
+    // Call the next function half-way, then it looks better
+    if (current == end - end / 4) {
       if (nextFunction != null) {
         nextFunction();
       }
+    }
+    if (current == end) {
+      clearInterval(timer);
+      obj.innerHTML += "+";
     }
   }, stepTime);
 }
