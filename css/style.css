@@ -249,16 +249,16 @@ body {
 
 /* Change font to white */
 .is-white-font {
-  color: white;
-  text-shadow: 2px 2px 4px black;
+  color: #333;
+  text-shadow: 2px 1px 5px white;
 }
 #contact {
-  background-image: url("../img/bg_contact_blur-min.jpg");
+  background-image: url("../img/bg_contact_white-min.jpg");
   background-size: cover;
 }
 
 #astro-nut {
-  filter: drop-shadow(10px 10px 8px #222);
+  filter: drop-shadow(2px 2px 1px #222);
   transform: translatey(0px);
   animation: floating-astro-nut 6s ease-in-out infinite;
 }
@@ -271,15 +271,12 @@ body {
 
 @keyframes floating-astro-nut {
   0% {
-    filter: drop-shadow(0 5px 15px 0px rgba(0, 0, 0, 0.6));
     transform: translatey(0px);
   }
   50% {
-    filter: drop-shadow(0 25px 15px 0px rgba(0, 0, 0, 0.2));
     transform: translatey(-50px);
   }
   100% {
-    filter: drop-shadow(0 5px 15px 0px rgba(0, 0, 0, 0.6));
     transform: translatey(0px);
   }
 }
