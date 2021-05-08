@@ -26,7 +26,7 @@ window.onload = async function () {
         document.getElementById("exco-cards-holder").innerHTML =
           document.getElementById("exco-cards-holder").innerHTML +
           `
-      <div class="card mt-1 mb-1 blue-gradient" data-aos="fade-right">
+      <div class="card mt-1 mb-1 ml-1 mr-1 blue-gradient" data-aos="fade-right">
           <div class="columns pt-1 pb-1 pl-2 pr-2">
               <div class="column is-4 mt-0 has-text-centered ">
                   <img src="` +
@@ -134,7 +134,7 @@ function loadWordpressPosts() {
                         <div class="columns">
                         <div class="column news-card-text">
                             <h1 class="title is-5 mb-1">${post_title}</h1>
-                            <p class="is-hidden-mobile">${post_content}</p>
+                            <p>${post_content}</p>
                             <a class="news-card-see-more" href="${post_link}">
                                 <p>
                                 See More
