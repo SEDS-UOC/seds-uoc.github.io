@@ -248,7 +248,7 @@ function sendMessage() {
     Email: document.getElementById("contact-email").value,
     Message: document.getElementById("contact-message").value,
   };
-  postData("https://formspree.io/f/mayaqkyj", msgData).then((data) => {
+  postData("https://formspree.io/f/mleagypa", msgData).then((data) => {
     if (data.ok == true) {
       sentOnce = true;
       // Show okay message!
