@@ -28,14 +28,17 @@ window.onload = async function () {
           `
       <div class="card mt-1 mb-1 ml-1 mr-1 blue-gradient" data-aos="fade-right">
           <div class="columns pt-1 pb-1 pl-2 pr-2">
-              <div class="column is-4 mt-0 has-text-centered ">
+              <div class="column is-4 mt-0 has-text-centered exco-image-col">
                   <img src="` +
           person.image +
           `" class="eb-img" alt="Exco image">
               </div>
               <div class="column is-8 mt-1 has-text-left eb-title-container">
-                  <p class="title is-4">` +
-          person.name +
+                  <p class="title is-4 mb-0">` +
+          person.name.split(" ")[0] +
+          `</p>
+          <p class="title is-4 mt-0">` +
+          person.name.split(" ")[1] +
           `</p>
                   <p class="subtitle is-6 mb-1">` +
           person.position +

@@ -211,10 +211,14 @@ body {
   box-shadow: 5px 10px 25px -5px #888888;
 }
 
+.exco-image-col{
+  align-self: center !important;
+}
+
 .exco-cards-holder {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 30em);
+  grid-template-columns: repeat(auto-fit, 25em);
   place-content: center;
   gap: 1rem;
 }
