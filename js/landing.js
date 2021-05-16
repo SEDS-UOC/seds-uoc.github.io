@@ -135,7 +135,7 @@ function loadWordpressPosts() {
                 >
                     <div class="news-card-content content">
                         <div class="columns">
-                        <div class="column news-card-text">
+                        <div class="column is-mobile news-card-text">
                             <h1 class="title is-5 mb-1">${post_title}</h1>
                             <p>${post_content}</p>
                             <a class="news-card-see-more" href="${post_link}">
@@ -147,7 +147,7 @@ function loadWordpressPosts() {
                                 </p>
                             </a>
                         </div>
-                        <div class="column">
+                        <div class="column is-mobile">
                             <img
                             class="news-card-image"
                             src="${post_image}"
