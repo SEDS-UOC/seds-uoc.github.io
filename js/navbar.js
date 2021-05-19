@@ -21,3 +21,18 @@ function activateHambugs() {
     });
   }
 }
+
+// Loading quotes into footer; added here since it's common for all pages.
+function loadQuote(location=""){
+  fetch(`.${location}/data/quotes.csv`, {
+    method: "GET",
+  })
+  .then(response => {return response.text()})
+  .then(csvData => {
+    // Split text according to lines(Quotes)
+    var allQuotes = csvData.split(/\r\n|\n/);
+    // Pick a random quote
+    var quote = allQuotes[Math.floor(Math.random() * allQuotes.length)].split('|');
+    document.getElementById("quote").innerHTML = `<i>" ${quote[0]} "</i><br><div style="float: right;"> - ${quote[1]}</div>`;
+  });
+}

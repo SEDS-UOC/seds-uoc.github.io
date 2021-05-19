@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
   loadWordpressPosts();
   // Add hambug functionality
   activateHambugs(); // Include navbar.js first!
+  // Load the footer quote
+  loadQuote();
 });
 
 //Load data from the JSON and render exco cards
