@@ -89,11 +89,8 @@ window.onload = async function () {
 
 // https://stackoverflow.com/questions/8567114/how-to-make-an-ajax-call-without-jquery
 function loadWordpressPosts() {
-  // Designed from a 1366x768 resolution device (reference point).
   var titleCutOff = 45; // Number of max characters to include in post title displayed
-  var contentCutOff = 150; // Number of max characters to include in post content displayed
-  var titleContentRatio = 2.1; // Rough ratio of the font sizes title:content
-  var screenRatio = screen.width / 1366; // Handle scaling with different screen sizes
+  var contentCutOff = 240; // Number of max characters to include in post content displayed
 
   var xmlhttp = new XMLHttpRequest();
 
@@ -112,19 +109,17 @@ function loadWordpressPosts() {
           var post_image =
             resp[i]._embedded["wp:featuredmedia"]["0"].source_url;
 
-          var post_title = resp[i].title.rendered.slice(0, titleCutOff);
-          if (resp[i].title.rendered.length > titleCutOff) post_title += "...";
+          var post_title = resp[i].title.rendered; //.slice(0, titleCutOff);
 
-          var p_contentCutOff = // Calculate cut off for the post
-            contentCutOff -
-            Math.ceil(
-              (Math.min(resp[i].title.rendered.length, titleCutOff) *
-                titleContentRatio) /
-                screenRatio
-            );
-
+          // console.log(
+          //   resp[i].content.rendered
+          //     .replace(/<[^>]*>?/gm, "") // Removing HTML tags returned
+          //     .slice(0, p_contentCutOff)
+          // );
           var post_content =
-            resp[i].content.rendered.slice(0, p_contentCutOff) + "...";
+            resp[i].content.rendered
+              .replace(/<[^>]*>?/gm, "")
+              .slice(0, contentCutOff);
           // Make empty in mobile
           if (screen.width < 768) post_content = "";
 
@@ -138,8 +133,8 @@ function loadWordpressPosts() {
                     <div class="news-card-content content">
                         <div class="columns">
                         <div class="column is-mobile news-card-text">
-                            <h1 class="title is-5 mb-1">${post_title}</h1>
-                            <p>${post_content}</p>
+                            <h1 class="title is-5 mb-1 news-card-title">${post_title}</h1>
+                            <p class="news-card-desc">${post_content}</p>
                             <a class="news-card-see-more" href="${post_link}">
                                 <p>
                                 See More

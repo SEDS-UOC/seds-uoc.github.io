@@ -145,12 +145,35 @@ body {
   padding: 1em;
   height: 220px;
 }
+
+/* https://chipcullen.com/truncating-type-at-more-than-one-line/ */
+
+.news-card-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  /* height: 70px; */
+
+  /* overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;  */
+}
+.news-card-desc {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+
+  max-height: 80px;
+  font-size: 0.8rem !important;
+  /*  text-overflow: ellipsis;
+  white-space: nowrap; */
+}
+
 .news-card-see-more {
   position: absolute;
   bottom: 1em;
-}
-.news-card-text > p {
-  font-size: 0.8rem !important;
 }
 
 .news-card-image {
@@ -211,7 +234,7 @@ body {
   box-shadow: 5px 10px 25px -5px #888888;
 }
 
-.exco-image-col{
+.exco-image-col {
   align-self: center !important;
 }
 
@@ -278,7 +301,7 @@ body {
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   #register-form {
     background-image: none;
   }
