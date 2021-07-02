@@ -133,13 +133,18 @@ body {
   padding: 2rem;
   overflow-x: hidden;
 }
+
+.events-title,
 .news-title {
   color: #fff !important;
 }
+
+.events-card,
 .news-card {
   border-radius: 10px;
   margin: 10px;
 }
+
 .news-card-content {
   position: relative;
   padding: 1em;
@@ -159,6 +164,7 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;  */
 }
+
 .news-card-desc {
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -180,14 +186,51 @@ body {
   border-radius: 10px;
 }
 
+/*events section*/
+.events-section {
+  background-color:#161735 !important;
+  padding: 2rem;
+}
+
+.events-card-content {
+  position: relative;
+  padding: 1.5em 2em;
+  height: 320px;
+}
+
+.events-card-desc {
+  font-size: 0.85rem !important;
+  text-align: justify;
+}
+
+.events-card-image {
+  height: auto;
+  width: auto;  
+}
+
+@media screen and (max-width: 1408px) {
+
+  .events-card-content{
+    height: auto;
+  }
+
+}
+
 /* Fix weird behaviour of news cards in mobile */
 @media screen and (max-width: 768px) {
+
   .news-card-content {
     height: auto;
   }
   .news-card-see-more {
     position: relative;
   }
+
+  .events-card-image{
+    max-width: 230px;
+    max-height: 230px;
+  }
+
 }
 
 .scroll-icon {
@@ -206,6 +249,7 @@ body {
 #register {
   display: flex;
   padding-top: 0;
+  margin-top: 3rem;
   background-image: url(../img/bg_register.jpg);
   background-size: contain;
   background-position: bottom;
