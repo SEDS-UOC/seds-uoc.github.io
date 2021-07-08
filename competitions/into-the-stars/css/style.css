@@ -1,0 +1,270 @@
+@import url("https://unpkg.com/bulma@0.8.0/css/bulma.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap");
+@import url("./helpers.css");
+@import url("./timeline.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css");
+
+/*@font-face {
+  font-family: GalanoGrotesqueBold;
+  src: url("../font/font.woff");
+}
+
+@font-face {
+  font-family: GalanoGrotesque;
+  src: url("../font/regular.otf");
+}*/
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: SFPro;
+  src: url("../font/SFProDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: "norwester";
+  src: url("../font/norwester.otf");
+}
+
+/* Colors */
+.color-yellow {
+  background-color: #f9cc56 !important;
+}
+.pink-gradient {
+  background-image: linear-gradient(to right, #fbeef7, #fae2f5) !important;
+}
+.blue-gradient {
+  background-image: linear-gradient(to right, #e8f9fe, #f0eefb) !important;
+}
+.brown-gradient {
+  background-image: linear-gradient(to right, #fcf9f0, #f1e6d5) !important;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: "SFPro", sans-serif !important;
+  background-color:  #010A2D;
+  color: #ffffff;
+}
+
+#particles-js{
+  height:90vh;
+  position: relative;
+}
+
+.particles-js-canvas-el{
+  opacity: 0.5;
+}
+
+#welcome-section{
+  position: absolute;
+  font-weight: 600;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  /*color:white;*/
+  text-align: center;
+}
+
+#welcome-title{
+  font-size: 4rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+#welcome-image{
+  max-width: 250px;
+}
+
+.font-block{
+  font-family: "norwester" !important;
+}
+
+.font-blue{
+    color: #4c83ff !important;
+}
+
+.font-yellow{
+  color: #ffc107 !important;
+}
+
+#navbar-logo {
+  max-height: 3rem !important;
+}
+
+.navbar{
+  background-color:  #010A2D;
+  padding: 1rem;
+}
+
+.navbar-burger{
+  color: white;
+}
+
+.navbar-item{
+  color: white;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.nav-signup {
+  color: black !important;
+  background-color: #f9cc56 !important ;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1023px){
+  .navbar-menu {
+    background-color: #010A2D;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #particles-js{
+    margin-bottom: 3rem;
+  }
+}
+
+hr {
+  border: 0;
+  margin: auto;
+  width: 80%;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/*about section*/
+#about, #timeline, #judges, #contact{
+  padding: 3rem 2rem 4rem 2rem;
+}
+
+#about h1, #timeline h1, #judges h1, #contact h1, footer h1{
+  letter-spacing: 1px;
+}
+
+.title{
+  margin: 1em 0 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card {
+  /*min-height: 330px;*/
+  border-radius: 20px;
+  padding: 2em;
+  margin: 0 0.7em 1em;
+  box-shadow: none;
+}
+
+.img{
+  text-align: center;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.about-logo{
+  height: 100px;
+  border-radius: 50%;
+}
+
+.info{
+  text-align: center;
+/*  font-family: SFPro !important;
+*//*  font-size: 0.95rem !important;
+*/}
+
+
+/*judges section*/
+
+.judges-card{
+  height: 370px;
+}
+
+.judge-img{
+  max-height: 180px;
+  max-width: 180px;
+  border-radius: 50%;
+}
+
+#contact .card .title,
+#judges .card .title{
+  color: #010A2D;
+
+}
+
+#contact .subtitle,
+#judges .subtitle{
+  text-align: center;
+  font-size: 0.95rem !important;
+  font-weight: bold;
+/*  font-family: GalanoGrotesque !important;
+*/}
+
+@media screen and (max-width: 615px){
+  .judges-card{
+    height: auto;
+  }
+}
+
+.contact-us-card{
+    margin: auto !important;
+    text-align: left;
+    max-width: 450px;
+    color: #010A2D;
+    background-image: radial-gradient( circle 1224px at 10.6% 8.8%,  rgba(255,255,255,1) 0%, rgba(153,202,251,1) 100.2% );
+}
+
+#contact p.title,
+#contact p.subtitle{
+  text-align: left;
+  margin-top: 1em; 
+}
+
+@media screen and (max-width: 768px) {
+    .contact-us-card {
+        height: auto;
+        text-align: center;
+        width: auto;
+    }
+
+    #contact p.title,
+    #contact p.subtitle{
+      text-align: center;
+    }
+
+  }
+
+.contact-img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+/*footer */
+.footer {
+    background-color: #010A2D;
+    margin-bottom: 0 !important;
+    padding-bottom: 1em !important;
+    color: #209cee;
+}
+
+footer .social-icons {
+    font-size: 26px;
+    padding: 25px;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 3px;
+}
+
+footer .social-icons:hover {
+    color: #c53678;
+}
+
+.justify-text{
+  text-align: justify !important;
+}
