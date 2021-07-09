@@ -440,6 +440,7 @@ canvas, iframe, img, svg, video {
   }
 
 .contact-us-card{
+    padding: 1rem !important;
     margin: auto !important;
     text-align: left;
     background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
@@ -454,7 +455,7 @@ canvas, iframe, img, svg, video {
 }
 
 .contact-img{
-    max-width: 150px;
+    /* max-width: 150px; */
     border-radius: 50%;
     padding:0.5em;
 }
@@ -1231,6 +1232,7 @@ hr {
   clear: both;
   padding: 0px;
   margin: 0px;
+  justify-content: space-between;
 }
 
 /*  Single Column  */
@@ -1238,7 +1240,7 @@ hr {
   display: block;
   float: left;
   margin: 1% 0 1% 1.6%;
-  text-align: center !important;
+  text-align: center ;
   border-radius: 10px;
 }
 .column:first-child {
@@ -1270,11 +1272,24 @@ hr {
 @media only screen and (max-width: 480px) {
     .column {
       margin: 1% 0 1% 0%;
+      text-align: center !important
     }
-  
+    .contact-img{
+        width: 12rem !important;
+    }
+    .card-text{
+        text-align: center !important;
+    }
     .is-4,
-    is-6,
+    .is-6,
     .is-8 {
       width: 100%;
     }
+  }
+
+  .card-text{
+      text-align: left;
+  }
+  .self-align-center{
+      align-self: center !important;
   }
