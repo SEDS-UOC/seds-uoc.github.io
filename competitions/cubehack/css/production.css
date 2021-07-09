@@ -1,3 +1,4 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
 @font-face {
     font-family: SFPro;
     src: url("../fonts/SFProDisplay-Regular.ttf");
@@ -375,7 +376,7 @@ img::-moz-selection {
     pointer-events: none;
 }
 @media screen and (max-width:40em) {
-    .btn {
+    .btn{
     display: block;
     margin-bottom: .8rem;
 }
@@ -420,9 +421,45 @@ img::-moz-selection {
     width: 90%}
 canvas, iframe, img, svg, video {
     max-width: 100%}
-.icon {
-    height: 30px;
+.icon-sm {
+    height: 18px;
+    padding-bottom: 3px;
 }
+.icon {
+    margin-top: 10px;
+    height: 60px;
+}
+.card {
+    /*min-height: 330px;*/
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 2em;
+    margin: 0 0.7em 1em;
+    box-shadow: none;
+  }
+
+.contact-us-card{
+    padding: 1rem !important;
+    margin: auto !important;
+    text-align: left;
+    background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+}
+@media screen and (max-width: 768px) {
+    .contact-us-card {
+        height: auto;
+        text-align: center;
+        width: auto;
+        flex-direction: column;
+    }
+}
+
+.contact-img{
+    /* max-width: 150px; */
+    border-radius: 50%;
+    padding:0.5em;
+}
+
 .form-control {
     background-image: none;
     border: 1px solid #aaaca9;
@@ -1190,3 +1227,69 @@ hr {
     text-align: left;
 }
 
+/*  Column Group  */
+.columns {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+  justify-content: space-between;
+}
+
+/*  Single Column  */
+.column {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+  text-align: center ;
+  border-radius: 10px;
+}
+.column:first-child {
+  margin-left: 0;
+}
+
+/*  Column Grouping  */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* For IE 6/7 */
+}
+.is-8 {
+  width: 66.13%;
+}
+.is-6 {
+    width: 49.2%;
+  }
+.is-4 {
+  width: 32.26%;
+}
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+    .column {
+      margin: 1% 0 1% 0%;
+      text-align: center !important
+    }
+    .contact-img{
+        width: 12rem !important;
+    }
+    .card-text{
+        text-align: center !important;
+    }
+    .is-4,
+    .is-6,
+    .is-8 {
+      width: 100%;
+    }
+  }
+
+  .card-text{
+      text-align: left;
+  }
+  .self-align-center{
+      align-self: center !important;
+  }
