@@ -212,6 +212,47 @@ hr {
   }
 }
 
+#leaderboard-table{
+    background-color: transparent !important;
+    color: #fff;
+    font-size: large;
+    /* width: 500px; */
+}
+
+#leaderboard-table th{
+    color: #fff;
+    font-size: larger;
+}
+#leaderboard-table tr{
+    border-bottom: 0.2px solid rgb(129, 129, 129) !important;
+    padding: 2em auto;
+}
+.group-col-sl{
+    padding-left: 4em !important;
+    margin-left: 1em;
+}
+
+.group-col{
+    padding-left: 7em !important;
+}
+
+.medal{
+    height: 30px !important;
+    margin-right: 1.2em;
+    padding: 0%;
+    vertical-align: middle;
+}
+
+#leaderboard-table .is-selected{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.scoreboard{
+    height: 380px;
+    margin: 1em 1.5em;
+    position: relative;
+}
+
 .contact-us-card{
     margin: auto !important;
     text-align: left;
@@ -237,7 +278,6 @@ hr {
     #contact p.subtitle{
       text-align: center;
     }
-
   }
 
 .contact-img{
@@ -278,12 +318,33 @@ word-break: break-word;
   flex-grow: 0;
 }
 @media screen and (min-width: 480px) {
-  .judges-card{
-      height: 410px;
-      max-width:220px;
-  }
-  .judge-img{
-      max-height: 150px;
-    max-width: 150px;
-  }
+    .judges-card{
+        height: 410px;
+        max-width:220px;
+    }
+    .judge-img{
+        max-height: 150px;
+        max-width: 150px;
+    }
+      .group-col-sl{
+        padding-left: 3em !important;
+    }
+    
+    .group-col{
+        padding-left: 6em !important;
+    }
+}
+@media screen and (max-width: 479px) {
+    #leaderboard-table{
+        width: 380px;
+    }
+    .group-col-sl{
+        padding-left: 1em !important;
+    }
+    .group-col{
+        padding-left: 4em !important;
+    }
+    .scoreboard{
+        height: 300px;
+    }
 }
