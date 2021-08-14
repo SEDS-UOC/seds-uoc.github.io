@@ -140,11 +140,11 @@ hr {
 }
 
 /*about section*/
-#about, #timeline, #judges, #contact{
+#about, #timeline, #judges, #contact, #sponsors, #leaderboard{
   padding: 3rem 2rem 4rem 2rem;
 }
 
-#about h1, #timeline h1, #judges h1, #contact h1, footer h1{
+#about h1, #timeline h1, #judges h1, #contact h1, #sponsors h1,  #leaderboard h1, footer h1{
   letter-spacing: 1px;
 }
 
@@ -192,6 +192,7 @@ hr {
   border-radius: 50%;
 }
 
+#sponsors .card .title,
 #contact .card .title,
 #judges .card .title{
   color: #010A2D;
@@ -284,6 +285,30 @@ hr {
     width: 150px;
     border-radius: 50%;
 }
+
+/*sponsors section*/
+.sponsor-logo {
+    height: 180px;
+    width: 180px;
+    background: white;
+}
+
+.sponsor-icon{
+    font-size: 20px;
+    margin: 0 10px;
+    /*padding: 20px;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 2px;*/
+}
+
+.sponsor-card{
+    margin: auto !important;
+    max-width: 280px;
+    color: #010A2D;
+    background-image: radial-gradient( circle 1224px at 10.6% 8.8%,  rgba(255,255,255,1) 0%, rgba(153,202,251,1) 100.2% );
+}
+
 
 /*footer */
 .footer {
