@@ -369,3 +369,17 @@ word-break: break-word;
         height: 300px;
     }
 }
+@media screen and (max-width: 380px) {
+    #leaderboard-table{
+        width: 280px;
+    }
+    .group-col-sl{
+        padding-left: 1em !important;
+    }
+    .group-col{
+        padding-left: 4em !important;
+    }
+    .scoreboard{
+        height: 300px;
+    }
+}
