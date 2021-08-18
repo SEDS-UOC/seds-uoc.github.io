@@ -287,7 +287,7 @@ hr {
 }
 
 /*sponsors section*/
-.sponsor-logo {
+.sponsor-logo2{
     height: 180px;
     width: 180px;
     background: white;
@@ -296,10 +296,6 @@ hr {
 .sponsor-icon{
     font-size: 20px;
     margin: 0 10px;
-    /*padding: 20px;
-    border-style: solid;
-    border-radius: 50px;
-    border-width: 2px;*/
 }
 
 .sponsor-card{
