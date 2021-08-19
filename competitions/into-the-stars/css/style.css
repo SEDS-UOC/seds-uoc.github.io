@@ -279,6 +279,10 @@ hr {
     #contact p.subtitle{
       text-align: center;
     }
+    #scoreboard-container{
+        display: flex;
+        align-items: center;
+    }
   }
 
 .contact-img{
@@ -304,7 +308,6 @@ hr {
     color: #010A2D;
     background-image: radial-gradient( circle 1224px at 10.6% 8.8%,  rgba(255,255,255,1) 0%, rgba(153,202,251,1) 100.2% );
 }
-
 
 /*footer */
 .footer {
@@ -378,8 +381,5 @@ word-break: break-word;
     }
     .group-col{
         padding-left: 4em !important;
-    }
-    .scoreboard{
-        height: 300px;
     }
 }
