@@ -1,9 +1,9 @@
-@import url("https://unpkg.com/bulma@0.8.0/css/bulma.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css");
 @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap");
+@import url("https://unpkg.com/bulma@0.8.0/css/bulma.min.css");
 @import url("./helpers.css");
 @import url("./timeline.css");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css");
 
 /*@font-face {
   font-family: GalanoGrotesqueBold;
@@ -252,6 +252,25 @@ hr {
     height: 380px;
     margin: 1em 2em;
     position: relative;
+}
+
+.section{
+    overflow: hidden !important;
+}
+
+.slider-navigation-previous, .slider-navigation-next{
+    color: #010A2D;
+}
+
+.img-container {
+    text-align: center;
+    padding: 1em;
+}
+
+.feedback-img{
+    border-radius: 20px;
+    padding: 0.5em;
+    margin-bottom: 1em;
 }
 
 .contact-us-card{
