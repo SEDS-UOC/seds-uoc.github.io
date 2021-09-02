@@ -310,8 +310,8 @@ hr {
 
 /*sponsors section*/
 .sponsor-logo2{
-    height: 180px;
-    width: 180px;
+    height: 150px;
+    width: 150px;
 }
 
 .sponsor-icon{
@@ -321,7 +321,7 @@ hr {
 
 .sponsor-card{
     margin: auto !important;
-    max-width: 280px;
+    max-width: 240px;
     color: #010A2D;
     background-image: radial-gradient( circle 1224px at 10.6% 8.8%,  rgba(255,255,255,1) 0%, rgba(153,202,251,1) 100.2% );
 }
