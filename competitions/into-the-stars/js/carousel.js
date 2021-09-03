@@ -116,6 +116,6 @@ ready(function () {
         slidesToShow: 3,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 7000,
     });
 });
