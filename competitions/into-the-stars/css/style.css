@@ -213,6 +213,21 @@ hr {
   }
 }
 
+.article-card{
+    background-image: linear-gradient( 44.8deg,  rgba(255,136,102,0.6) -53.1%, rgba(255,221,136,0.28) 49% );
+}
+
+.article-img{
+    height: 180px;
+    border-radius: 10px;
+}
+
+.article-card h5{
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 0 0.3em;
+}
+
 #leaderboard-table{
     background-color: transparent !important;
     color: #fff;

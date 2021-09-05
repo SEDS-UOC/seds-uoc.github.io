@@ -816,10 +816,14 @@ hr {
 
 .info .subtitle{
     font-size: 16px;
+    margin-bottom: 0.4em;
 }
 
 .info a{
-   text-decoration:none ; 
+   text-decoration:none; 
+   border: 2px solid #1960ff;
+   border-radius: 7px;
+   padding: 0.2em 1em;
 }
 
 .place-img{
