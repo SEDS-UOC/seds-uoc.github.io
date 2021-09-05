@@ -791,6 +791,33 @@ hr {
     display: block;
     height: 1px;
 }
+
+.card-gradient {
+    background-image: radial-gradient( circle 827px at 47.3% 48%,  rgba(255,255,255,1) 0%, rgba(138,192,216,1) 90% );
+  }
+
+.winner-card{
+    color: #181515;
+    flex-direction: column;
+}
+
+#winner{
+    font-size: 24px;
+}
+
+.info h4{
+    margin-bottom: 0;
+}
+
+.info .subtitle{
+    font-size: 15px;
+}
+
+.place-img{
+ max-height: 140px;
+ padding-bottom: 1em;
+}
+
 .blockquote {
     border: none;
     font-family: SFPro, Monaco, Menlo, Consolas, monospace;
