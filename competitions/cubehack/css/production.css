@@ -811,11 +811,15 @@ hr {
 }
 
 .info h4{
-    margin-bottom: 0;
+    margin-bottom: 0.2em;
 }
 
 .info .subtitle{
     font-size: 16px;
+}
+
+.info a{
+   text-decoration:none ; 
 }
 
 .place-img{
