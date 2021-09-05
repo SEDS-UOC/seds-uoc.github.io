@@ -792,13 +792,18 @@ hr {
     height: 1px;
 }
 
+.steps{
+    overflow: hidden;
+}
+
 .card-gradient {
     background-image: radial-gradient( circle 827px at 47.3% 48%,  rgba(255,255,255,1) 0%, rgba(138,192,216,1) 90% );
   }
 
 .winner-card{
-    color: #181515;
     flex-direction: column;
+    color: #181515;
+    padding: 0.5em auto;
 }
 
 #winner{
@@ -810,7 +815,7 @@ hr {
 }
 
 .info .subtitle{
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .place-img{
