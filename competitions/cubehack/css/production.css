@@ -791,6 +791,42 @@ hr {
     display: block;
     height: 1px;
 }
+
+.steps{
+    overflow: hidden;
+}
+
+.card-gradient {
+    background-image: radial-gradient( circle 827px at 47.3% 48%,  rgba(255,255,255,1) 0%, rgba(138,192,216,1) 90% );
+  }
+
+.winner-card{
+    flex-direction: column;
+    color: #181515;
+    padding: 0.5em auto;
+}
+
+#winner{
+    font-size: 24px;
+}
+
+.info h4{
+    margin-bottom: 0.2em;
+}
+
+.info .subtitle{
+    font-size: 16px;
+}
+
+.info a{
+   text-decoration:none ; 
+}
+
+.place-img{
+ max-height: 140px;
+ padding-bottom: 1em;
+}
+
 .blockquote {
     border: none;
     font-family: SFPro, Monaco, Menlo, Consolas, monospace;
