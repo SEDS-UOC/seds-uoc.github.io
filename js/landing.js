@@ -26,14 +26,7 @@ window.onload = async function () {
     if (dataJson !== null) {
       dataJson.forEach((person) => {
         var names = person.name.split(" ");
-        if(names.indexOf("Rev.") < -1){
-          var name = '<p class="title is-4 mb-0">'+names[0]+'</p><p class="title is-4 mt-0">';
-          names.shift();
-          names.forEach(function(value){
-            name += value + '</br>';
-          });
-          name += '</p>';
-        }else{
+        if(names.indexOf("Rev.") > -1){
           if(names.length % 2 ==1){
             names.push(" ");
           }
@@ -43,6 +36,13 @@ window.onload = async function () {
           for (let i = 0; i < names.length; i+=2) {
             name += names[i]+' '+names[i+1] + '</br>';
           }
+        }else{
+          name += '</p>';
+          var name = '<p class="title is-4 mb-0">'+names[0]+'</p><p class="title is-4 mt-0">';
+          names.shift();
+          names.forEach(function(value){
+            name += value + '</br>';
+          });
           name += '</p>';
         }
         document.getElementById("exco-cards-holder").innerHTML =
