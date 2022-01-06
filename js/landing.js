@@ -34,7 +34,6 @@ window.onload = async function () {
           });
           name += '</p>';
         }else{
-          console.log('hello');
           if(names.length % 2 ==1){
             names.push(" ");
           }
