@@ -25,6 +25,26 @@ window.onload = async function () {
 
     if (dataJson !== null) {
       dataJson.forEach((person) => {
+        var names = person.name.split(" ");
+        if(names.indexOf("Rev.") > -1){
+          if(names.length % 2 ==1){
+            names.push(" ");
+          }
+          var name = '<p class="title is-4 mb-0">'+names[0]+' '+names[1]+'</p><p class="title is-4 mt-0">';
+          names.shift();
+          names.shift();
+          for (let i = 0; i < names.length; i+=2) {
+            name += names[i]+' '+names[i+1] + '</br>';
+          }
+        }else{
+          name += '</p>';
+          var name = '<p class="title is-4 mb-0">'+names[0]+'</p><p class="title is-4 mt-0">';
+          names.shift();
+          names.forEach(function(value){
+            name += value + '</br>';
+          });
+          name += '</p>';
+        }
         document.getElementById("exco-cards-holder").innerHTML =
           document.getElementById("exco-cards-holder").innerHTML +
           `
@@ -36,13 +56,8 @@ window.onload = async function () {
           `" class="eb-img" alt="Exco image">
               </div>
               <div class="column is-8 mt-1 has-text-left eb-title-container">
-                  <p class="title is-4 mb-0">` +
-          person.name.split(" ")[0] +
-          `</p>
-          <p class="title is-4 mt-0">` +
-          person.name.split(" ")[1] +
-          `</p>
-                  <p class="subtitle is-6 mb-1">` +
+                  ` + name+
+          `<p class="subtitle is-6 mb-1">` +
           person.position +
           `</p>                              
                   <div class="iconset">

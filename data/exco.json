@@ -1,68 +1,8 @@
 [
     {
-        "name": "Suvin Kodituwakku",
-        "position": "President",
-        "image": "https://www.sedsuoc.lk/img/eb/suvin.png",
-        "twitter": "https://twitter.com/tikirimaarie",
-        "email": "suvin@sedsuoc.lk",
-        "facebook": "https://www.facebook.com/tikirimaarie",
-        "instagram": "https://www.instagram.com/theatticuss/",
-        "linkedin": "https://www.linkedin.com/in/suvink/"
-    },
-    {
-        "name": "Sacheera Wijesekara",
-        "position": "Vice President",
-        "image": "https://www.sedsuoc.lk/img/eb/Sacheera.png",
-        "twitter": "#",
-        "email": "sacheera@sedsuoc.lk",
-        "facebook": "https://www.facebook.com/sacheera.wijesekara",
-        "instagram": "https://www.instagram.com/areehcas/",
-        "linkedin": "https://www.linkedin.com/in/sacheera-wijesekara-419a611a4"
-    },
-    {
-        "name": "Limini Fonseka",
-        "position": "Secretary",
-        "image": "https://www.sedsuoc.lk/img/eb/Limini.jpeg",
-        "twitter": "#",
-        "email": "limini@sedsuoc.lk",
-        "facebook": "#",
-        "instagram": "#",
-        "linkedin": "https://www.linkedin.com/in/limini-fonseka-913a32196/"
-    },
-    {
-        "name": "Janadhi Uyanhewa",
-        "position": "Assistant Secretary",
-        "image": "https://www.sedsuoc.lk/img/eb/Janadhi.png",
-        "twitter": "#",
-        "email": "janadhi@sedsuoc.lk",
-        "facebook": "https://www.facebook.com/uyanhewa.ja.7",
-        "instagram": "https://www.instagram.com/janaadhi_/",
-        "linkedin": "https://www.linkedin.com/in/janadhi-uyanhewa-88b930171/"
-    },
-    {
-        "name": "Thurunu Chalitha",
-        "position": "Chief Coordinator",
-        "image": "https://www.sedsuoc.lk/img/eb/Thurunu.jpeg",
-        "twitter": "#",
-        "email": "thurunu@sedsuoc.lk",
-        "facebook": "https://www.facebook.com/thurunu.chalitha",
-        "instagram": "https://www.instagram.com/thurunu11/",
-        "linkedin": "https://www.linkedin.com/in/thurunu-chalitha-9bba1b193/"
-    },
-    {
-        "name": "Manul Madara",
-        "position": "Project Coordinator",
-        "image": "https://www.sedsuoc.lk/img/eb/Manul.png",
-        "twitter": "https://twitter.com/MadaraManul",
-        "email": "manul@sedsuoc.lk",
-        "facebook": "https://www.facebook.com/manul.me.lk",
-        "instagram": "https://www.instagram.com/manul_madara/",
-        "linkedin": "https://www.linkedin.com/in/manul-madara-78a00516b/"
-    },
-    {
         "name": "Dasith Tilakaratna",
-        "position": "Chief Editor",
-        "image": "https://www.sedsuoc.lk/img/eb/Dasith.png",
+        "position": "President",
+        "image": "img/eb/Dasith.png",
         "twitter": "#",
         "email": "dasith@sedsuoc.lk",
         "facebook": "https://www.facebook.com/dasith.asela",
@@ -70,13 +10,73 @@
         "linkedin": "https://www.linkedin.com/in/dasith-tilakaratna-690b351b2/"
     },
     {
-        "name": "Saif Humaid",
-        "position": "Treasurer",
-        "image": "https://www.sedsuoc.lk/img/eb/Saif.png",
+        "name": "Sachindri Gunasekara",
+        "position": "Vice President",
+        "image": "img/eb/Sachindri.png",
+        "twitter": "https://twitter.com/sachindri_sg?s=11",
+        "email": "sachindrisg@gmail.com",
+        "facebook": "https://www.facebook.com/sachindri.s.g",
+        "instagram": "https://www.instagram.com/sachindri_sg/",
+        "linkedin": "https://www.linkedin.com/in/sachindri-sg"
+    },
+    {
+        "name": "Thara Peiris",
+        "position": "Secretary",
+        "image": "img/eb/Thara.png",
         "twitter": "#",
-        "email": "saif@sedsuoc.lk",
-        "facebook": "https://www.facebook.com/saifhumaid11",
-        "instagram": "https://www.instagram.com/_saifhumaid_/",
-        "linkedin": "https://www.linkedin.com/in/saif-humaid/"
+        "email": "mttpieris323@gmail.com",
+        "facebook": "https://www.facebook.com/thara.pieris.1/",
+        "instagram": "https://www.instagram.com/tharapieris/",
+        "linkedin": "www.linkedin.com/in/thara-pieris-6a42991a5/"
+    },
+    {
+        "name": "Ishini Ramachandra",
+        "position": "Assistant Secretary",
+        "image": "img/eb/Ishini.png",
+        "twitter": "#",
+        "email": "ishiniramachandra@gmail.com",
+        "facebook": "#",
+        "instagram": "#",
+        "linkedin": "https://www.linkedin.com/in/ishini-ramachandra-13485a227"
+    },
+    {
+        "name": "Kalana Bandara",
+        "position": "Chief Coordinator",
+        "image": "img/eb/Kalana.png",
+        "twitter": "https://twitter.com/Kalanabandara98",
+        "email": "ashenkalana481@gmail.com",
+        "facebook": "https://www.facebook.com/merrrrlinnnn",
+        "instagram": "https://www.instagram.com/ashen_piyadigama/",
+        "linkedin": "https://www.linkedin.com/in/kalanauocfosundergrad/"
+    },
+    {
+        "name": "Rev. Nugagolle Seevali Thero",
+        "position": "Project Coordinator",
+        "image": "img/eb/Seevali_Thero.png",
+        "twitter": "#",
+        "email": "seewaleehamuduruwo1@gmail.com",
+        "facebook": "https://www.facebook.com/tharanga.darsana.3",
+        "instagram": "#",
+        "linkedin": "#"
+    },
+    {
+        "name": "Ishara Nimeshi",
+        "position": "Chief Editor",
+        "image": "img/eb/Ishara.png",
+        "twitter": "#",
+        "email": "isharanimeshifb@gmail.com",
+        "facebook": "https://www.facebook.com/ishara.nimeshi",
+        "instagram": "#",
+        "linkedin": "https://www.linkedin.com/in/ishara-nimeshi97"
+    },
+    {
+        "name": "Anuki Pathinayaka",
+        "position": "Treasurer",
+        "image": "img/eb/Anuki.png",
+        "twitter": "#",
+        "email": "anuki2906@gmail.com",
+        "facebook": "https://www.facebook.com/anuki.pathinayke",
+        "instagram": "#",
+        "linkedin": "http://linkedin.com/in/anuki-pathinayake-8b64a4214"
     }
 ]
