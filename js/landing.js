@@ -61,21 +61,6 @@ window.onload = async function () {
           person.position +
           `</p>                              
                   <div class="iconset">
-                      <a href="` +
-          person.twitter +
-          `" target="_blank">
-                          <span class="icon is-small mr-1 social"><i class="fab fa-twitter"></i></span>
-                      </a>
-                      <a href="` +
-          person.facebook +
-          `" target="_blank">
-                          <span class="icon is-small mr-1 social"><i class="fab fa-facebook"></i></span>
-                      </a>
-                      <a href="` +
-          person.instagram +
-          `" target="_blank">
-                          <span class="icon is-small mr-1 social"><i class="fab fa-instagram"></i></span>
-                      </a>
                       <a href="mailto:` +
           person.email +
           `" target="_blank">
